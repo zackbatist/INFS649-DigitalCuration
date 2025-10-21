@@ -1,0 +1,144 @@
+---
+title: Open Data in Practice
+author:
+  - name: Zachary Batist
+    id: zb
+    email: zachary.batist@mcgill.ca
+    url: https://zackbatist.info
+    orcid: 0000-0003-0435-508X
+    corresponding: true
+    affiliations:
+      - name: McGill University
+        department: Epidemiology, Biostatistics and Occupational Health
+        city: Montreal
+        region: Québec
+        country: Canada
+    degrees: PhD
+    # metadata:
+    #   mastodon: "https://archaeo.social/@zackbatist"
+license: CC0
+lang: en-CA
+date: 2025-10-28
+date-format: long
+# toc: true
+# toc-title: Overview
+# toc-depth: 2
+# toc-expand: 2
+number-sections: false
+code-fold: true
+code-copy: true
+code-tools:
+  source: true
+  toggle: false
+  caption: Source
+title-block-banner: plain
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  - heading: Overview
+format:
+  revealjs:
+    output-file: slides
+    embed-resources: true
+    theme: black
+    slide-number: c/t
+    css: slides-styles.css
+    template-partials:
+      - title-slide.html
+---
+
+::: {style="text-align: center;"}
+## {.center}
+
+How do researchers _actually_ engage with open science practices, principles and tooling?
+
+</br>vs.</br></br>
+
+How advocates claim science works and _should_ work.
+
+
+How we think about data and data's role in knowledge production is central to this discussion.
+
+:::
+
+# About me
+## About me
+
+- How does open science reconfigure --- _or attempt to reconfigure_ --- collaborative experiences?
+- What values are associated with open science, and how do they intersect with scientists actual needs and desires?
+
+<hr>
+
+- [Currently:]{.underline} Technical and administrative systems that scaffold the Covid Immunity Task Force Databank
+- [Previously:]{.underline} Data work in archaeology, especially data sharing, integration and reuse
+- [Also:]{.underline} Collaborative software development practices
+
+::: {.notes}
+I take the view that data sharing is primarily a social, rather than merely technical experience, and should be treated as such.
+
+:::
+
+# What are data?
+## What are data?
+
+1. Descriptive accounts of observed phenomenon
+2. Evidence that forms the basis of a claim
+3. Means of communicating observations from one set of circumstances to another
+
+---
+
+## What are data?
+1. [Descriptive accounts of observed phenomenon]{.mark}
+2. [Evidence that forms the basis of a claim]{.mark}
+3. Means of communicating observations from one set of circumstances to another
+
+<hr>
+
+- Data are fixed and stable
+- Data are generated prior to and separate from analysis
+- Selected data models are a "natural" fit
+
+::: {.notes}
+This imbues data with an aura of authority, stability, and truthfulness.
+
+And also supports a particular approach of sharing data over the web.
+
+If data are all reflections of reality, then if we get all those records together we can learn more about the world!
+Yes, but...
+The data models are all different.
+The decisions and actions that led to the creation of each dataset may not be compatible (a) with each other and (b) with the new analytical goals.
+:::
+
+---
+
+Example
+
+---
+
+## What are data?
+1. Descriptive accounts of observed phenomenon
+2. Evidence that forms the basis of a claim
+3. [Means of communicating observations from one set of circumstances to another]{.mark}
+
+<hr>
+
+Records created under specific circumstances,
+for targeted purposes,
+and informed by partial background knowledge
+
+---
+
+Example: DObsiSS
+
+# How open science tends to imagine data
+## The Open Data Imaginary
+- Non-material, non-political (politics relates to materiality in that different people can participate based on differential access to material resources)
+- Non-social (emerges from nature, rather than from people)
+- Infinitely re-configurable
+
+---
+
+None of this is true.
+
+# Critique of all that
+

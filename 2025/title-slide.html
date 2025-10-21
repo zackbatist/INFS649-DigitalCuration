@@ -1,0 +1,47 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$ class="quarto-title-block">
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <p class="subtitle">$subtitle$</p>
+$endif$
+
+<div class="quarto-title-authors">
+  $for(by-author)$
+    <div class="quarto-title-author">
+
+        <div class="quarto-title-author-name">
+          <div class="quarto-title-author-name-literal">
+            $by-author.name.literal$
+          </div>
+        </div>
+      <!-- $if(by-author.email)$
+        <div class="quarto-title-author-email">
+          $by-author.email$
+        </div>
+      $endif$ -->
+
+      <!-- </br>
+      $if(by-author.metadata.mastodon)$
+        <div class="quarto-title-author-mastodon">
+          $by-author.metadata.mastodon$
+        </div>
+      $endif$ -->
+
+      </br>
+      $if(by-author.affiliations)$
+        $for(by-author.affiliations)$
+          <p class="quarto-title-affiliation">
+            $it.name$
+            </br>
+            $it.department$
+          </p>
+        $endfor$
+      $endif$
+    </div>
+  $endfor$
+</div>
+
+$if(date)$
+  <p class="date">$date$</p>
+$endif$
+
+</section>

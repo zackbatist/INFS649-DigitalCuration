@@ -1,0 +1,33 @@
+.title {
+  font-size: 48px !important;
+}
+
+.quarto-title-author-name {
+  font-size: 36px;
+}
+
+/* .quarto-title-author-mastodon {
+  font-size: 36px;
+} */
+
+.date {
+  font-size: 18px;
+}
+
+.quarto-title-affiliation {
+  font-size: 12px;
+}
+
+.references {
+  display: none;
+}
+
+.center-xy {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translateY(-50%), translateX(-50%);
+          transform: translateY(-50%), translateX(-50%);
+        }
+

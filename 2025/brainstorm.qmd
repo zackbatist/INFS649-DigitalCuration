@@ -1,0 +1,17 @@
+---
+description: Rough notes / brainstorming
+---
+Not all data are the same, not all science is the same.
+
+The lecture will be about open data and presumptions about data’s role in scientific knowledge production.
+Breaking down the mono-myth of data and "just-so" stories.
+
+Examples:
+
+- OAIS origins with space tech, as per neighbours story, and as further expanded upon in conversation at MATC.
+- ADS and whaling data.
+- CRANE and palaeo-environment reconstruction
+- That one post about open gov data
+  - https://fediscience.org/@petersuber/115265906714248689
+
+
