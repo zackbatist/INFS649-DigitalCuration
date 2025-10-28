@@ -15,3 +15,18 @@ Examples:
   - https://fediscience.org/@petersuber/115265906714248689
 
 
+---
+
+Not all data are the same, not all science is the same
+
+The lecture will be about open data and presumptions about data's role in scientific knowledge production.
+Breaking down the mono-myth of data and just so stories
+
+OAIS' origins with space tech, as per neighbors story
+
+ADS and whaling data
+
+CRANE and palaeoenvironment reconstruction
+
+That one post about open gov data: https://fediscience.org/@petersuber/115265906714248689
+

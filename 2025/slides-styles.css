@@ -31,3 +31,10 @@
           transform: translateY(-50%), translateX(-50%);
         }
 
+.grey {
+  color: grey;
+}
+
+.small-text {
+  font-size: 30px;
+}
