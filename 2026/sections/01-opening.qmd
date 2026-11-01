@@ -1,0 +1,85 @@
+## About me {.s1}
+
+::: {.columns}
+::: {.column width="62%"}
+- Postdoc at McGill, working on the CITF Databank
+- PhD at Toronto's Faculty of Information, on how archaeological research collectives do data work
+- Database manager for the Stelida Naxos Archaeological Project since 2016
+- Maintainer of open-archaeo, with Joe Roe, and of archaeo.social
+:::
+::: {.column width="38%"}
+::: {.lines}
+I study data work
+
+and I do it
+:::
+:::
+:::
+
+::: {.notes}
+**Time.** The opening runs 3 minutes. This slide takes 1.
+
+**Facts on the slide.**
+
+- **CITF Databank.** It holds data from studies supported by the Canadian COVID-19 Immunity Task Force. You work on it as a postdoc at McGill under David Buckeridge. Individual-level data are restricted and go to approved requests only.
+- **PhD.** University of Toronto, Faculty of Information. Your supervisor was Costis Dallas, whose 2016 paper section 5 covers.
+- **Stelida Naxos Archaeological Project.** You have managed its database since 2016.
+- **Community infrastructure.** You maintain open-archaeo with Joe Roe, archaeo.social and the Digital Archaeology Maintainathon. You are a Carpentries-certified teacher and a contributor to O-Date.
+
+**To add.** One or two sentences, in your words, on where you stand on open science. The slide gives the facts and leaves your position to you.
+:::
+
+## The argument {.s1}
+
+::: {.lines}
+Open science rests on a picture of how science works
+
+::: {.fragment}
+The picture says little about who does the work and who it serves
+:::
+
+::: {.fragment}
+Digital curation is where those questions have to be answered
+:::
+:::
+
+::: {.notes}
+**Time.** 1.5 minutes.
+
+**Run it.** Press the arrow key once per line.
+
+**The picture.** Section 2 draws it. A scientist asks a question, forms a hypothesis, runs an experiment, collects data and writes a paper. Most of us learned this version in school. Open science adds sharing to the end of it.
+
+**What it assumes.** The picture carries assumptions about data, access, infrastructure, method and labour. Sections 3, 4 and 5 test them, one at a time. The closing table in section 5 lists all six.
+
+**The questions.** Who does the work and who the work serves come up in every section. The cost of the work follows from the first question, and section 5 is built around it.
+:::
+
+## This session {.s1}
+
+::: {.agenda}
+| # | Min | Section | What happens |
+|--|--------|---------------------------|----------------------------------------|
+| 1 | 3 | Opening | About me, the argument |
+| 2 | 6.5 | What open science is | Definition, motives, policy, the textbook picture |
+| 3 | 11.5 | What curation adds | Data, access, terms and repositories |
+| 4 | 3.5 | Methodological pluralism | One method, many kinds of research |
+| 5 | 14.5 | Researchers as information workers | Who does the work, a sort |
+| 6 | 1 + 10 | Close, then questions | Questions from the room |
+:::
+
+::: {.notes}
+**Time budget.** The talk runs 40 minutes and questions take 10. Gordon Burr is leading the course this year while Ilya Frissen is on sabbatical, and the official topic is "Issues on Open Science".
+
+**Run it.**
+
+- Votes run by show of hands. Count out loud and say the result.
+- Reveals use fragments. Press the arrow key once for each reveal.
+- Exercises have a "Run it" block in the notes on that slide.
+- Each section opens with a divider slide. A small label in the bottom right corner of every other slide gives the section.
+
+**If time runs short.** Cut in this order.
+
+1. The "The ecosystem around a paper" slide in section 2 goes.
+2. The sort in section 5 shrinks to two rows.
+:::

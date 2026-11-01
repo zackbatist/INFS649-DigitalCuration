@@ -1,0 +1,202 @@
+## [5]{.num} Researchers as information workers {.divider}
+
+::: {.lines}
+Who does the work of making data usable
+:::
+
+::: {.notes}
+**Time.** This section runs 14.5 minutes. The first slide takes 2.5, curation in the lab 1.5, who pays 2, the sort 4 and the revisited picture 4.5.
+
+**Where this fits.** This is the climax of the session. Every earlier section found work that someone has to do. Someone documents the data, sets the access terms, keeps the servers up and chooses among methods. This section asks who that someone is, who pays them, and who the work is for.
+:::
+
+## Open science adds information work {.s5}
+
+::: {.lines}
+Some calls require a data management plan at application
+:::
+
+::: {.columns}
+::: {.column width="50%"}
+::: {.fragment}
+- Describe the data for others
+- Record how the data came to be
+- Plan the handling before collecting any
+- Choose the terms of reuse
+:::
+:::
+::: {.column width="50%"}
+::: {.fragment}
+- Choose where the data are deposited
+- Decide what to keep and for how long
+- Show the funder the policy was met
+- Plan for the data after the grant ends
+:::
+:::
+:::
+
+::: {.prompt .fragment}
+Open science assumes researchers can do the work themselves
+:::
+
+::: {.notes}
+**Time.** 2.5 minutes.
+
+**Run it.** Read the top line. Press the arrow key once for each column of jobs, and once more for the assumption. Say the assumption aloud as it appears.
+
+**The top line.** The Tri-Agency policy from section 2 requires a data management plan at application for some calls. The researcher writes it before any data exist.
+
+**The eight jobs.** Each line names a task that a researcher now takes on in addition to the research. The term for each job is in bold.
+
+- **Metadata.** Describe what the data are, so that someone else can find and interpret them.
+- **Paradata.** Record how the data came to be. It covers the decisions, instruments and procedures behind the numbers.
+- **Data management plan.** Commit the project to how it will handle data before it collects any.
+- **Licence.** Choose the terms under which others may reuse the data.
+- **Repository selection.** Choose where the data are deposited.
+- **Retention decisions.** Decide what to keep and for how long.
+- **Policy reporting.** Show a funder or institution that its rules were followed.
+- **Sustainability planning.** Plan who keeps the data going after the grant ends.
+
+**Point.** None of this appears in the picture of science most of us learned in school, and all of it is information work. The rest of the section tests whether researchers can do it.
+:::
+
+## Curation moves into the lab {.s5}
+
+::: {.boxes .tight}
+::: {.box}
+[Who curates]{.boxlabel}
+
+Researchers, artists, users and communities all curate.
+:::
+::: {.box .fragment}
+[What producers lack]{.boxlabel}
+
+The resources to prepare data for sharing.
+:::
+::: {.box .fragment}
+[What curators do]{.boxlabel}
+
+Craft work, and much of it goes unseen.
+:::
+:::
+
+::: {.notes}
+**Time.** 1.5 minutes.
+
+**Run it.** Walk the first box, then press the arrow key once for each of the other two.
+
+**Who curates. Dallas 2016.**
+
+- The paper is "Digital curation beyond the 'wild frontier': a pragmatic approach", published in *Archival Science* 16(4): 421–457.
+- Dallas argues against a custodial view of digital curation that grows out of digital preservation and serves professional stewardship. He proposes that curation is also a "contact zone" practice, which researchers, artists, users and communities carry out on evolving objects and knowledge representations.
+- Use it to say that curation does not belong only to repositories. It now happens inside research projects.
+- Dallas was your doctoral supervisor. Say so if it helps the room place the paper.
+
+**What producers lack. Faniel and Yakel 2017.**
+
+- The chapter is "Practices Do Not Make Perfect: Disciplinary Data Sharing and Reuse Practices and Their Implications for Repository Data Curation", in *Curating Research Data, Volume One*, edited by Lisa R. Johnson (ACRL), pp. 103–126.
+- It compares three disciplines. It says producers often lack the financial, technological and human resources to prepare data for sharing (pp. 103–104).
+- In some disciplines, repository and museum staff prepare and curate data, which lightens the producers' load. In others, few dedicated staff help producers with curation (pp. 117–118).
+
+**What curators do. Thomer et al. 2022.**
+
+- The paper is "The craft and coordination of data curation: complicating 'workflow' views of data science". Elizabeth Yakel is a co-author. It is an arXiv preprint (arXiv:2202.04560).
+- The study draws on interviews and Jira tickets at ICPSR. It finds that curators rely on craft practices that do not follow the linear steps of lifecycle or workflow models, and that their hands-on labour is often overlooked.
+- Use it to connect curation to credit. The authors say overlooked labour hides curators' contributions to how usable and reliable the data are.
+
+**Check before citing.** The Thomer et al. paper carries an ACM DOI (10.1145/3555139) on its arXiv page. Look up the published venue before you give a citation in print.
+:::
+
+## Who pays after the grant ends? {.s5}
+
+::: {.boxes .small}
+::: {.box}
+[What the Tri-Agency policy requires]{.boxlabel}
+
+- Institutional RDM strategies, posted by March 1, 2023
+- A data management plan at application, for the calls that ask for one
+- Deposit of data, metadata and code behind publications, to be phased in
+:::
+::: {.box .hl .fragment}
+[What someone has to supply]{.boxlabel}
+
+- Hours to document the work
+- Training for the people doing it
+- Staff who know the standards
+- A repository that outlasts the grant
+:::
+:::
+
+::: {.notes}
+**Time.** 2 minutes.
+
+**Tri-Agency Research Data Management Policy.** Section 2 gave the details. In short, the policy requires institutional strategies, data management plans for some calls and a deposit requirement that has no start date.
+
+**What to stress.** The deposit requirement is not yet in force for most grants. Do not tell the class otherwise.
+
+**The right box.** This box lists what the work needs. It is an analysis of the tasks, and the policy text does not state it. Ask the room which of the four items they have seen budgeted.
+:::
+
+## Who should do it? {.s5}
+
+::: {.sort}
+| Job | Researcher | Curator | Model | No one |
+|------------------------------------|---|---|---|---|
+| Describing the data | | | | |
+| Setting the terms of access | | | | |
+| Keeping the files usable in ten years | | | | |
+| Showing the funder's policy was met | | | | |
+:::
+
+::: {.notes}
+**Time.** 4 minutes.
+
+**Run it.**
+
+1. Read a job and ask for hands for each of the four columns, one vote per student.
+2. Spend about 45 seconds per job.
+3. Use the remaining time to ask one person on each side of the most split job to say why.
+
+**Debrief.** Tie the votes to the earlier slides.
+
+- **Describing the data.** Only the depositor knows how the data came to be, as the first slide of section 3 showed. Faniel and Yakel note that producers remain an important source of context (p. 119). A model can draft a description from the files, and the person who signs the deposit stays accountable for it.
+- **Setting the terms of access.** The terms depend on consent and on the people the data describe, as the vote in section 3 showed. The depositor knows the origin of the data, and a curator knows the options.
+- **Keeping the files usable in ten years.** This will be nobody's job unless someone holds a standing mandate. It connects to the repository slide in section 3.
+- **Showing the funder's policy was met.** This is the policy reporting job from the first slide of the section. Someone compiles the reports, and someone signs them.
+
+**If the room goes quiet.** Pick "Setting the terms of access" and ask who in the room has chosen a licence.
+:::
+
+## The textbook picture, revisited {.s5}
+
+::: {.compare}
+| The picture assumes | Curators find |
+|--------------------------------------|-------------------------------------------------------|
+| Data carry their meaning with them | Meaning stays with the people who made the data |
+| Release equals access | Access means finding, trusting and reading the data |
+| More open is better | Terms depend on the data and the people in them |
+| The infrastructure will be there | Someone has to keep paying for it |
+| One method fits all research | Research uses many methods and many kinds of evidence |
+| Researchers can do the work themselves | Researchers take on information work without the training or the resources |
+:::
+
+::: {.prompt .fragment}
+Who does the work, and who is it for?
+:::
+
+::: {.notes}
+**Time.** 4.5 minutes. This is the climax of the session.
+
+**Walk the table row by row.** Name the slide each row came from.
+
+- **Data carry their meaning.** The first slide of section 3 showed that meaning lives with the people who made the data. Pasquetto, Borgman and Wofford found that reusers prefer to work with the creators.
+- **Release equals access.** Faniel and Yakel describe access as finding, trusting and reading the data.
+- **More open is better.** The vote and the CARE slide showed that terms depend on the data and on the people the data describe.
+- **The infrastructure will be there.** The TRUST principles ask a repository to show that it can last, and someone has to pay for that.
+- **One method fits all research.** Section 4 showed that the open science toolkit grew out of confirmatory research, and that much research does not look like that.
+- **Researchers can do the work themselves.** The first slide of this section listed the eight jobs. Dallas, Faniel and Yakel, and Thomer et al. describe curation as work, often craft work, often unseen.
+
+**Point.** Open science asks scientists to release things. Curation asks who looks after them, for whom, and for how long. The textbook picture has no answer to that question.
+
+**Last reveal.** Press the arrow key once to bring up the closing question and leave it on screen for a moment before moving on.
+:::

@@ -1,0 +1,95 @@
+## [4]{.num} Methodological pluralism {.divider}
+
+::: {.lines}
+Whether one method fits all research
+:::
+
+::: {.notes}
+**Time.** This section runs 3.5 minutes. The toolkit slide takes 1, Leonelli 1.5 and reproducibility 1.
+
+**Where this fits.** The textbook picture from section 2 is the confirmatory experiment. This section tests whether that one method describes all research.
+:::
+
+## What the toolkit asks of research {.s4}
+
+- A hypothesis fixed before the data
+- A study someone else could repeat
+- Data apart from the people who made them
+
+::: {.prompt .fragment}
+Open science assumes one method fits all research
+:::
+
+::: {.notes}
+**Time.** 1 minute.
+
+**Run it.** Read the three features. Press the arrow key once and say the assumption aloud.
+
+**The toolkit.** Preregistration and registered reports ask a researcher to fix a hypothesis before collecting data. Replication asks that someone else repeat a study. Data sharing treats data as separable from the people who made them.
+
+**Point.** Each tool fits some kinds of research and not others. Open science often presents them as the way to do science. Leonelli and the reproducibility slide follow.
+:::
+
+## One policy, many kinds of research {.s4}
+
+::: {.lines}
+Standardized, top-down open science policy can entrench some kinds of research
+
+::: {.fragment}
+and the inequities that come with them
+:::
+:::
+
+::: {.notes}
+**Time.** 1.5 minutes.
+
+**Leonelli 2022.**
+
+- Sabina Leonelli published "Open Science and Epistemic Diversity: Friends or Foes?" in *Philosophy of Science* 89(5), December 2022, pp. 991–1001.
+- She argues that standardized, top-down open science policy ignores epistemic diversity and risks entrenching some forms of research and some inequities.
+- Her book *Philosophy of Open Science* (Cambridge Elements, 2023) goes further. It argues that treating openness as resource sharing narrows epistemic diversity and worsens epistemic injustice, and it proposes openness as well-considered connections between systems of practice.
+
+**Implementation.** Policy decides how open science is implemented, and a mandate designed around one kind of research can flatten the others.
+:::
+
+## What reproducibility means {.s4}
+
+::: {.boxes .tight .small}
+::: {.box}
+[Methods]{.boxlabel}
+
+Repeat the procedures as exactly as possible.
+:::
+::: {.box .fragment}
+[Results]{.boxlabel}
+
+A new study corroborates the results.
+:::
+::: {.box .fragment}
+[Inferential]{.boxlabel}
+
+A replication or reanalysis supports claims of similar strength.
+:::
+:::
+
+::: {.prompt .fragment}
+Open data serves some kinds of reproducibility and not others
+:::
+
+::: {.notes}
+**Time.** 1 minute.
+
+**Run it.** Press the arrow key once for each of the other two boxes, and once more for the closing line.
+
+**The three kinds.** Goodman, Fanelli and Ioannidis separate reproducibility into three kinds in "What does research reproducibility mean?" (*Science Translational Medicine* 8(341): 341ps12, June 1, 2016).
+
+- **Methods reproducibility** means implementing the procedures as exactly as possible. It needs the data, the code and a full account of the procedures.
+- **Results reproducibility** means corroborating the results in a new study. It needs a new study, and the original data play little part.
+- **Inferential reproducibility** means a replication or reanalysis supports knowledge claims of similar strength. It depends on judgment about what counts as similar.
+
+The three definitions come from secondary sources, because the journal page was unreachable when the deck was built. Read the paper before you quote them.
+
+**Link to the room.** Ask which kind of reproducibility fits the research the students know best, and which kinds it does not allow.
+
+**Point.** Open data serves methods reproducibility most directly. Results and inferential reproducibility ask for new studies and judgment, so which kind matters depends on the research.
+:::

@@ -1,0 +1,175 @@
+## [3]{.num} What curation adds {.divider}
+
+::: {.lines}
+Data, access and infrastructure
+:::
+
+::: {.notes}
+**Time.** This section runs 11.5 minutes. The meaning slide takes 2, access 2, the vote 3, the principles 2 and the repository slide 2.5.
+
+**Where this fits.** The textbook picture treats data as a byproduct of the experiment. Curators handle data as objects that need work before anyone else can use them. This section takes four assumptions that follow from the picture, about what data carry, what release does, how open data should be and how long repositories last.
+
+**How the slides work.** Each one states the assumption in plain words, then press the arrow key once to bring up what curators find. Say the assumption aloud, then walk the findings.
+:::
+
+## What travels with the data {.s3}
+
+::: {.prompt}
+Open science assumes released data carry their meaning
+:::
+
+::: {.fragment}
+### Curators find
+
+- Meaning lives with the people and practices that made the data
+- Metadata stand in for that context
+- Gaps open at every handoff
+:::
+
+::: {.notes}
+**Time.** 2 minutes.
+
+**The assumption.** Open science speaks as if a dataset carries its meaning with it. Release the file and anyone can interpret it.
+
+**Edwards et al. 2011.** Edwards, Mayernik, Batcheller, Bowker and Borgman wrote "Science friction: Data, metadata, and collaboration" (*Social Studies of Science* 41(5): 667–690). Its subject is the friction that arises when data and metadata move between researchers and communities.
+
+**Pasquetto, Borgman and Wofford 2019.** The paper is "Uses and Reuses of Scientific Data: The Data Creators' Advantage" (*Harvard Data Science Review* 1(2), 2019). Researchers mostly reuse other people's data for comparison, such as calibration and ground-truthing. For integrative reuse they usually prefer to work with the data's creators, who hold tacit knowledge that metadata cannot capture.
+
+**Point.** Everything a file leaves out is knowledge the creators hold. The reader of a deposit has the data and none of the context.
+:::
+
+## What reusers do {.s3}
+
+::: {.prompt}
+Open science assumes that once data are online, anyone can use them
+:::
+
+::: {.fragment}
+### Curators find
+
+- Reusers weigh the producer's reputation and the quality of the documentation
+- Access means finding, trusting and reading the data
+:::
+
+::: {.notes}
+**Time.** 2 minutes.
+
+**The assumption.** Release is treated as the end of the task. The data are online, so anyone can use them.
+
+**Faniel and Yakel 2017.**
+
+- The chapter compares how reusers in three disciplines find, trust and interpret data. It uses interviews with reusers and with repository and museum staff.
+- Reusers draw on seven kinds of source. These are peer-reviewed publications, repository or museum records, records the producers generated, people, documentation, codebooks, and specimens or artifacts (p. 114).
+- Reusers focus on the completeness or thoroughness of the documentation (p. 112). Zoologist 11 says, "I could tell they weren't doing it quite systematically enough."
+
+**Point.** In the chapter, access means finding the data, trusting them and reading them. Release only puts the files online.
+:::
+
+## The default for research data {.s3}
+
+::: {.prompt}
+What should the default be?
+:::
+
+::: {.boxes .tight}
+::: {.box}
+Open
+:::
+::: {.box}
+Controlled access
+:::
+::: {.box}
+Closed
+:::
+:::
+
+::: {.prompt .fragment}
+Open science assumes more open is better
+:::
+
+::: {.notes}
+**Time.** 3 minutes.
+
+**Run it.**
+
+1. Read the question and the three options aloud.
+2. Ask for hands for each option, one vote per student. Write the counts down.
+3. Ask one person on each side of the biggest split to say why.
+4. Ask the room to name a dataset that would change their answer. Take two or three, and let the students supply the cases.
+5. Press the arrow key once and say the assumption aloud.
+
+**The assumption.** Open science treats more open as better. The vote tests that.
+
+**Point.** The room will not agree on one default. The answer depends on the data and on the people the data describe. The next slide gives the principles that handle that.
+:::
+
+## Principles that set the terms {.s3}
+
+::: {.prompt}
+As open as possible, as closed as necessary
+:::
+
+::: {.boxes .tight .small}
+::: {.box}
+[FAIR]{.boxlabel}
+
+Findable, accessible, interoperable, reusable. Principles for the data.
+:::
+::: {.box .fragment}
+[CARE]{.boxlabel}
+
+Collective benefit, authority to control, responsibility, ethics. Indigenous peoples' rights and interests in data about them.
+:::
+:::
+
+::: {.notes}
+**Time.** 2 minutes.
+
+**As open as possible, as closed as necessary.** The phrase appears in the European Commission's Guidelines on FAIR Data Management in Horizon 2020 (version 3.0, July 2016). It gives openness a default and requires a reason for restriction. Curators write down the reasons and set the access tier that follows from them.
+
+**FAIR.** Wilkinson et al. published the FAIR Guiding Principles in *Scientific Data* 3: 160018 (2016). They concern the data, and whether people can find them, reach them, combine them and reuse them. They say nothing about whose data these are.
+
+**CARE.** The CARE Principles for Indigenous Data Governance (Carroll et al. 2020, *Data Science Journal* 19(1): 43) stand for collective benefit, authority to control, responsibility and ethics. They come from the Global Indigenous Data Alliance and apply to Indigenous data internationally. They complement FAIR by covering the people the data come from.
+
+**TRUST.** The TRUST Principles are a third set, and they cover repositories. They come up on the next slide.
+
+**Return to the vote.** Ask the students to look again at the datasets they named. The right terms depend on the consent given, on the people the data describe, and on whether the data can identify anyone.
+
+**Point.** A curator writes the terms into the record so that the next person can follow them.
+:::
+
+## What keeps a repository running {.s3}
+
+::: {.prompt}
+Open science assumes repositories will be there
+:::
+
+::: {.fragment}
+### TRUST: what a repository promises
+
+::: {.chips}
+[Transparency]{.chip} [Responsibility]{.chip} [User focus]{.chip} [Sustainability]{.chip} [Technology]{.chip}
+:::
+
+::: {.muted}
+CoreTrustSeal is one way repositories certify these capabilities.
+:::
+:::
+
+::: {.notes}
+**Time.** 2.5 minutes.
+
+**The assumption.** A deposit stays available as long as someone wants it.
+
+**TRUST.** Lin et al. published "The TRUST Principles for digital repositories" in *Scientific Data* 7: 144 on May 14, 2020. Nineteen authors wrote it, and they present TRUST as a complement to FAIR. FAIR describes the data. TRUST describes the repository that keeps them.
+
+- **Transparency.** Repositories are open about their services and holdings in ways the public can verify.
+- **Responsibility.** Repositories ensure the authenticity and integrity of their holdings, and the reliability and persistence of the service.
+- **User focus.** Repositories meet the data management norms and expectations of their target user communities.
+- **Sustainability.** Repositories sustain their services and preserve their holdings for the long term.
+- **Technology.** Repositories provide the infrastructure and capabilities for secure, persistent and reliable services.
+
+**CoreTrustSeal.** A non-profit certification body that certifies data repositories at the core level against its Core Trustworthy Data Repositories Requirements. The TRUST authors cite those requirements as an example of how repositories can build the capabilities TRUST describes.
+
+**Point.** A repository has to show that it can last. Sustainability is one of the five TRUST principles, and servers, staff and funding cost money. Someone has to pay, and section 5 takes up who.
+:::
