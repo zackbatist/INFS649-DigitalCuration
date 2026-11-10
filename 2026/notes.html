@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-CA" xml:lang="en-CA"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Zack Batist">
+
+<title>Issues on Open Science – INFS649-DigitalCuration</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b3b235ae6ba71d6e5c2a90c00144237d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-b73b1d6c43fa7ce4add716695f450f98.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b3b235ae6ba71d6e5c2a90c00144237d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="notes.css">
+</head>
+
+<body class="quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Slides</h2>
+   
+  <ul class="collapse">
+  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
+  <li><a href="#what-does-open-mean-in-your-work" id="toc-what-does-open-mean-in-your-work" class="nav-link" data-scroll-target="#what-does-open-mean-in-your-work">What does “open” mean in your work?</a></li>
+  <li><a href="#open-science-as-a-movement" id="toc-open-science-as-a-movement" class="nav-link" data-scroll-target="#open-science-as-a-movement"><span class="num">1</span> Open science as a movement</a></li>
+  <li><a href="#unescos-definition" id="toc-unescos-definition" class="nav-link" data-scroll-target="#unescos-definition">UNESCO’s definition</a></li>
+  <li><a href="#what-open-science-includes" id="toc-what-open-science-includes" class="nav-link" data-scroll-target="#what-open-science-includes">What open science includes</a></li>
+  <li><a href="#justifications-for-open-science" id="toc-justifications-for-open-science" class="nav-link" data-scroll-target="#justifications-for-open-science">Justifications for open science</a></li>
+  <li><a href="#tri-agency-policies" id="toc-tri-agency-policies" class="nav-link" data-scroll-target="#tri-agency-policies">Tri-Agency policies</a></li>
+  <li><a href="#infrastructure-behind-the-tri-agency-policies" id="toc-infrastructure-behind-the-tri-agency-policies" class="nav-link" data-scroll-target="#infrastructure-behind-the-tri-agency-policies">Infrastructure behind the Tri-Agency policies</a></li>
+  <li><a href="#curation-in-open-science" id="toc-curation-in-open-science" class="nav-link" data-scroll-target="#curation-in-open-science"><span class="num">2</span> Curation in open science</a></li>
+  <li><a href="#a-paper-and-its-linked-records" id="toc-a-paper-and-its-linked-records" class="nav-link" data-scroll-target="#a-paper-and-its-linked-records">A paper and its linked records</a></li>
+  <li><a href="#decisions-behind-the-records" id="toc-decisions-behind-the-records" class="nav-link" data-scroll-target="#decisions-behind-the-records">Decisions behind the records</a></li>
+  <li><a href="#who-curates-research-data" id="toc-who-curates-research-data" class="nav-link" data-scroll-target="#who-curates-research-data">Who curates research data?</a></li>
+  <li><a href="#complicating-openness" id="toc-complicating-openness" class="nav-link" data-scroll-target="#complicating-openness"><span class="num">3</span> Complicating openness</a></li>
+  <li><a href="#data-and-their-context" id="toc-data-and-their-context" class="nav-link" data-scroll-target="#data-and-their-context">Data and their context</a></li>
+  <li><a href="#how-open-should-these-data-be" id="toc-how-open-should-these-data-be" class="nav-link" data-scroll-target="#how-open-should-these-data-be">How open should these data be?</a></li>
+  <li><a href="#as-open-as-possible-as-closed-as-necessary" id="toc-as-open-as-possible-as-closed-as-necessary" class="nav-link" data-scroll-target="#as-open-as-possible-as-closed-as-necessary">As open as possible, as closed as necessary</a></li>
+  <li><a href="#reusing-data" id="toc-reusing-data" class="nav-link" data-scroll-target="#reusing-data">Reusing data</a></li>
+  <li><a href="#maintaining-repositories" id="toc-maintaining-repositories" class="nav-link" data-scroll-target="#maintaining-repositories">Maintaining repositories</a></li>
+  <li><a href="#release-and-upkeep" id="toc-release-and-upkeep" class="nav-link" data-scroll-target="#release-and-upkeep">Release and upkeep</a></li>
+  <li><a href="#methodological-pluralism" id="toc-methodological-pluralism" class="nav-link" data-scroll-target="#methodological-pluralism"><span class="num">4</span> Methodological pluralism</a></li>
+  <li><a href="#open-science-practices-and-confirmatory-research" id="toc-open-science-practices-and-confirmatory-research" class="nav-link" data-scroll-target="#open-science-practices-and-confirmatory-research">Open science practices and confirmatory research</a></li>
+  <li><a href="#three-kinds-of-reproducibility" id="toc-three-kinds-of-reproducibility" class="nav-link" data-scroll-target="#three-kinds-of-reproducibility">Three kinds of reproducibility</a></li>
+  <li><a href="#tensions-with-ai" id="toc-tensions-with-ai" class="nav-link" data-scroll-target="#tensions-with-ai"><span class="num">5</span> Tensions with AI</a></li>
+  <li><a href="#open-licences-and-ai-training" id="toc-open-licences-and-ai-training" class="nav-link" data-scroll-target="#open-licences-and-ai-training">Open licences and AI training</a></li>
+  <li><a href="#ai-crawlers-and-open-repositories" id="toc-ai-crawlers-and-open-repositories" class="nav-link" data-scroll-target="#ai-crawlers-and-open-repositories">AI crawlers and open repositories</a></li>
+  <li><a href="#who-should-curate" id="toc-who-should-curate" class="nav-link" data-scroll-target="#who-should-curate">Who should curate?</a></li>
+  <li><a href="#open-science-needs-curation" id="toc-open-science-needs-curation" class="nav-link" data-scroll-target="#open-science-needs-curation">Open science needs curation</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#reading-list" id="toc-reading-list" class="nav-link" data-scroll-target="#reading-list">Reading list</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/zackbatist/INFS649-DigitalCuration/blob/main/2026/notes.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Issues on Open Science</h1>
+<p class="subtitle lead">Speaker notes · INFS 649 Digital Curation · November 17, 2026</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Zack Batist </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="./" class="notes-link">Open the slides</a></p>
+<section id="about-me" class="level2">
+<h2 class="anchored" data-anchor-id="about-me">About me</h2>
+<p>I’m a postdoc in epidemiology here at McGill, where I work on the Covid-19 Immunity Task Force Databank.</p>
+<p>The Databank brings together data from the studies the Task Force funded during the pandemic and makes them available to other researchers.</p>
+<p>My own research there looks at how that sharing actually gets done, including the agreements, the coordination and the administrative work that let data move from one team to another.</p>
+<hr>
+<p>Before that, I did my PhD at the Faculty of Information at the University of Toronto.</p>
+<p>I studied how archaeologists work with data together, especially in large projects where many people record and interpret the same material.</p>
+<hr>
+<p>I’ve also been involved in open source communities for a long time, and I help maintain a few community projects for archaeologists.</p>
+<p>So I come to open science as someone who studies it, and also as someone who does a lot of its less visible work.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="what-does-open-mean-in-your-work" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-open-mean-in-your-work">What does “open” mean in your work?</h2>
+<p>Before I say anything about open science, I’d like to hear what you already associate with openness.</p>
+<p>Call out a word or two.</p>
+<p>It can be something you’ve used, something you’ve been asked to do, or something that came up in another course.</p>
+<p>I’ll write a few of these down, and we’ll come back to them at the end.</p>
+<div class="cue pause">
+<p><em>Collect five to eight words</em></p>
+</div>
+<hr>
+<blockquote class="blockquote">
+<p><strong>Running the warm-up.</strong> Allow about two minutes.</p>
+<ol type="1">
+<li>Take five to eight words from the room and write them on the board, or on paper if there’s no board.</li>
+<li>Expect words like free, access, sharing, transparent, public and Creative Commons. Don’t comment on them yet.</li>
+<li>If nobody speaks, ask what they’d expect to find behind a link labelled “open data”.</li>
+<li>Keep the list. The closing slide comes back to it.</li>
+</ol>
+</blockquote>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong> once the activity wraps up</p>
+</div>
+</section>
+<section id="open-science-as-a-movement" class="level2 divider">
+<h2 class="divider anchored" data-anchor-id="open-science-as-a-movement"><span class="num">1</span> Open science as a movement</h2>
+<p>First, what open science is, and how it reaches researchers here in Canada.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="unescos-definition" class="level2">
+<h2 class="anchored" data-anchor-id="unescos-definition">UNESCO’s definition</h2>
+<p>UNESCO adopted a Recommendation on Open Science in 2021, and its definition is the one people quote most often.</p>
+<p>The definition makes two commitments.</p>
+<hr>
+<p>The first commitment is to access.</p>
+<p>Research from every field should be available to everyone, for the benefit of scientists and of society.</p>
+<hr>
+<p>The second commitment concerns how knowledge gets produced.</p>
+<p>UNESCO asks that research itself be inclusive, equitable and sustainable, which raises questions about who gets to take part in research and on what terms.</p>
+<hr>
+<p>Most open science policy and infrastructure addresses the first commitment.</p>
+<p>The second gets far less attention.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="what-open-science-includes" class="level2">
+<h2 class="anchored" data-anchor-id="what-open-science-includes">What open science includes</h2>
+<p>Open science brings together several movements that grew up somewhat separately.</p>
+<p>This figure divides them into six strands.</p>
+<p>It’s one classification among several.</p>
+<p>Benedikt Fecher and Sascha Friesike, for example, sort open science into five schools of thought according to what each one is trying to achieve, such as public participation in research or more efficient research.</p>
+<hr>
+<hr>
+<p>Open access makes publications free to read.</p>
+<p>Open data makes the data behind those publications available, and open source does the same for the software and code that process and analyse the data.</p>
+<p>Open methods documents research protocols, so readers can see how a study was designed and carried out.</p>
+<hr>
+<p>These four work as a unit.</p>
+<p>A paper reports findings, and a reader who wants to evaluate those findings needs the data, the code and the protocol that produced them.</p>
+<hr>
+<p>Open peer review extends the same transparency to evaluation.</p>
+<p>Journals publish the reviews alongside the paper, and sometimes the reviewers’ names, so readers can see how the work was assessed and what changed in response.</p>
+<hr>
+<p>Open educational resources apply open licensing to teaching materials, including textbooks and course notes.</p>
+<p>They also draw on the other five, since openly licensed papers and datasets make good teaching material.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="justifications-for-open-science" class="level2">
+<h2 class="anchored" data-anchor-id="justifications-for-open-science">Justifications for open science</h2>
+<p>There are two kinds of justification for open science.</p>
+<hr>
+<p>The first is epistemic.</p>
+<p>When the data, code and protocols behind a paper are available, reviewers and other researchers in the field can rerun the analysis and test whether the reported results hold.</p>
+<p>Errors that would otherwise go unnoticed can be caught and corrected after publication.</p>
+<p>Shared data can also be combined with other datasets or reanalysed with different methods, which extends their value well beyond the project that produced them.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>The second is political and economic.</p>
+<p>Public money funds most research, so the public should be able to read the results.</p>
+<p>Openness also gives funders a clearer view of what their grants produce, which informs how they assess public investment in research and where they direct future funding.</p>
+<p>And journal subscription costs have strained library budgets for decades, which is a big reason librarians were early advocates of open access.</p>
+<hr>
+<p>Both kinds of justification concern research outputs, meaning the papers, datasets and code that can be released and counted.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="tri-agency-policies" class="level2">
+<h2 class="anchored" data-anchor-id="tri-agency-policies">Tri-Agency policies</h2>
+<p>In Canada, the three federal granting agencies, CIHR, NSERC and SSHRC, set these requirements together as the Tri-Agency.</p>
+<hr>
+<p>On open access, the 2015 policy asked that articles be freely available within twelve months of publication.</p>
+<p>A revised policy removes that delay.</p>
+<p>For grants awarded from January 2027, articles have to be available in a Canadian repository or on a Canadian platform on the day they’re published.</p>
+<hr>
+<p>On data, the Research Data Management Policy has come in stages.</p>
+<p>Some funding calls have required a data management plan since 2022, and universities had to post institutional data management strategies in 2023.</p>
+<p>The last stage is a deposit requirement.</p>
+<p>Researchers would deposit the data, code and documentation behind their publications, and keep them for ten years.</p>
+<p>It’s expected to start in 2027, but the agencies haven’t published the final text yet.</p>
+<hr>
+<p>Each stage adds tasks for researchers.</p>
+<p>A data management plan has to be written before any data exist, and a deposit has to be documented well enough for someone outside the project to use it.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="infrastructure-behind-the-tri-agency-policies" class="level2">
+<h2 class="anchored" data-anchor-id="infrastructure-behind-the-tri-agency-policies">Infrastructure behind the Tri-Agency policies</h2>
+<p>Researchers meet these policies through a set of national services, and each one supports a different requirement.</p>
+<hr>
+<p>The Digital Research Alliance of Canada is a federally funded organization that coordinates national computing, storage and research data management.</p>
+<p>It runs the DMP Assistant, the tool most Canadian researchers use to write the data management plans the Tri-Agency now asks for.</p>
+<hr>
+<p>When a project has data to deposit, Borealis is a likely destination.</p>
+<p>It’s a shared repository built on Dataverse, an open source platform for sharing and citing research data, and university libraries across the country run it together.</p>
+<p>McGill has its own collection there.</p>
+<hr>
+<p>Deposited data still have to be found.</p>
+<p>The Alliance also runs the Federated Research Data Repository, which gathers metadata from Borealis and other Canadian repositories so that people can search them in one place.</p>
+<hr>
+<p>All of these services depend on continued public funding and on the staff who maintain them.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="curation-in-open-science" class="level2 divider">
+<h2 class="divider anchored" data-anchor-id="curation-in-open-science"><span class="num">2</span> Curation in open science</h2>
+<p>Every open output, whether a paper, a dataset or a piece of code, has to be described, deposited and kept usable before anyone else can rely on it.</p>
+<p>That work is digital curation.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="a-paper-and-its-linked-records" class="level2">
+<h2 class="anchored" data-anchor-id="a-paper-and-its-linked-records">A paper and its linked records</h2>
+<p>This is what open science looks like around a single paper today.</p>
+<hr>
+<p>The paper sits in the middle.</p>
+<p>It has a DOI registered through Crossref, and its licence is recorded with that DOI.</p>
+<hr>
+<p>On the left are the people and organizations behind it.</p>
+<p>Each author has an ORCID identifier, and each institution has a ROR identifier.</p>
+<p>The CRediT taxonomy describes what each author contributed.</p>
+<p>Funders and grants carry identifiers too, and open reviews from services like eLife, PubPeer and Peer Community In link back to the paper.</p>
+<hr>
+<p>On the right is what the paper rests on.</p>
+<p>A registered plan records what the researchers meant to do before they collected any data.</p>
+<p>The dataset has its own DOI from DataCite and sits in a repository like Zenodo, OSF or Borealis.</p>
+<p>The code lives on GitHub or a similar platform, sometimes packaged as notebooks so that others can rerun the analysis.</p>
+<hr>
+<p>OpenAlex gathers all these records, and the links between them, into one open catalogue.</p>
+<hr>
+<p>Every one of these links exists because someone created it, checked it and keeps it current.</p>
+<p>When an identifier is missing or wrong, the link breaks, and nobody downstream can follow it.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="decisions-behind-the-records" class="level2">
+<h2 class="anchored" data-anchor-id="decisions-behind-the-records">Decisions behind the records</h2>
+<p>Every record in that picture rests on decisions that someone has to make.</p>
+<hr>
+<p>Someone decides how to describe the data so that people outside the project can find and interpret them, and what to record about how the data were made.</p>
+<p>Someone decides how the project will handle data before it collects any, which licence to apply, and which repository to use.</p>
+<p>Someone decides what to keep and for how long, how to show the funder the policy was met, and what happens to the data after the grant ends.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Under the Tri-Agency policies, most of these decisions fall to researchers.</p>
+<p>Archivists, librarians and data curators train for this work in information studies programs like this one.</p>
+<p>Most researchers pick it up on the job, the same way they learn to teach or to manage a project, with little formal training and a lot of improvisation.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="who-curates-research-data" class="level2">
+<h2 class="anchored" data-anchor-id="who-curates-research-data">Who curates research data?</h2>
+<p>Digital curation has its roots in archives and libraries, where trained professionals take custody of material and care for it over time.</p>
+<p>Costis Dallas, who supervised my doctorate, argues that this custodial view no longer covers what curation is.</p>
+<p>Researchers, communities and users also curate, wherever they work with digital material that keeps changing.</p>
+<p>Open science policy turns that observation into an obligation, since researchers now have to prepare their own data for others.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>The question is whether they have what they need to do it.</p>
+<p>Ixchel Faniel and Elizabeth Yakel compared data sharing in three disciplines, and they found that the people who produce data often lack the money, tools and staff to prepare it for sharing.</p>
+<p>In disciplines where repository or museum staff help, producers carry less of the load.</p>
+<p>Elsewhere, the work stays with whoever is left in the project.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Even professional curation is harder than it looks from outside.</p>
+<p>Andrea Thomer and her colleagues studied curators at ICPSR, a large social science data archive.</p>
+<p>The curators relied on judgement and constant back and forth with depositors, and their work rarely followed the steps that lifecycle models describe.</p>
+<p>Much of it never appeared in any record of who contributed to the data.</p>
+<hr>
+<p>So open science policy has moved skilled and largely invisible work onto researchers, many of whom have neither the training nor the support to do it well.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="complicating-openness" class="level2 divider">
+<h2 class="divider anchored" data-anchor-id="complicating-openness"><span class="num">3</span> Complicating openness</h2>
+<p>Open science policy measures openness at the moment of release, when a paper is published or a dataset is deposited.</p>
+<p>Curation is concerned with everything after that moment, for as long as anyone uses the data.</p>
+<p>The difference shows up in how data carry context, in how access terms get set, in what reuse actually involves, and in who maintains the infrastructure.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="data-and-their-context" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-their-context">Data and their context</h2>
+<p>Data get their meaning from how they were made.</p>
+<p>That includes who collected them, with what instruments, under what conditions and for what purpose.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Metadata are supposed to capture that context, and they do capture some of it.</p>
+<p>The rest stays with the people who did the work.</p>
+<p>It’s tacit knowledge, and they rarely think to write it down because to them it’s obvious.</p>
+<hr>
+<p>Paul Edwards and his colleagues call this science friction.</p>
+<p>In their study of interdisciplinary environmental research, metadata were never finished.</p>
+<p>Making sense of shared data took ongoing conversation between the people who made the data and the people trying to use them.</p>
+<hr>
+<p>Irene Pasquetto, Christine Borgman and Morgan Wofford found a similar pattern among scientists who reuse data.</p>
+<p>For simple comparisons, reusers could get by with what had been deposited.</p>
+<p>When they wanted to integrate someone else’s data into their own analysis, they generally preferred to work with the people who created them.</p>
+<hr>
+<p>So documenting data is an act of interpretation.</p>
+<p>Whoever does it, a curator or a researcher acting as one, has to anticipate what future users will need to know without knowing who those users are.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="how-open-should-these-data-be" class="level2">
+<h2 class="anchored" data-anchor-id="how-open-should-these-data-be">How open should these data be?</h2>
+<p>Here are four kinds of data.</p>
+<p>For each one, decide whether it should be open, shared under controlled access, or kept closed.</p>
+<p>Controlled access means approved users can get the data after they sign an agreement.</p>
+<p>Closed means the data stay with the project team.</p>
+<div class="cue pause">
+<p><em>Run the vote, one row at a time</em></p>
+</div>
+<hr>
+<p>Air quality readings tend to go open with little disagreement.</p>
+<p>Nobody is identifiable in them, and wide reuse is the point of collecting them.</p>
+<p>Survey responses split more, because even anonymized answers can identify people once someone links them with other datasets.</p>
+<p>Archaeological site locations usually end up controlled or closed, since publishing them invites looting.</p>
+<hr>
+<p>Genomic data from an Indigenous community raise a different question.</p>
+<p>Here the question is who has the authority to decide.</p>
+<hr>
+<p>The answers changed with the data, and with the people the data describe.</p>
+<hr>
+<blockquote class="blockquote">
+<p><strong>Running the vote.</strong> Allow about five minutes.</p>
+<ol type="1">
+<li>Read the two definitions at the bottom of the slide before starting.</li>
+<li>Go row by row. Ask for hands for open, then controlled access, then closed, one vote per person. Say the leading answer aloud.</li>
+<li>On the row with the most even split, ask one person from each side to explain, about thirty seconds each.</li>
+<li>Expect air quality readings to go open, survey responses to split between open and controlled access, and site locations to go controlled or closed. If site locations go open, raise looting. If survey responses go open, raise reidentification through linked datasets.</li>
+<li>For the genomic data, ask who should get to decide. Take one or two answers and move on, since the next slide gives the CARE principles’ answer.</li>
+</ol>
+</blockquote>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong> once the activity wraps up</p>
+</div>
+</section>
+<section id="as-open-as-possible-as-closed-as-necessary" class="level2">
+<h2 class="anchored" data-anchor-id="as-open-as-possible-as-closed-as-necessary">As open as possible, as closed as necessary</h2>
+<p>The European Commission put the principle this way: as open as possible, as closed as necessary.</p>
+<p>Openness is the default, and restriction is legitimate when there’s a reason for it.</p>
+<p>Somebody has to weigh those reasons for each dataset, and then write the outcome into the record so the next person can follow it.</p>
+<hr>
+<p>The FAIR principles are the best-known guide for that work.</p>
+<p>They ask that data be findable, accessible, interoperable and reusable.</p>
+<p>They’re about the data, and they say nothing about whose data these are.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>The CARE principles, from the Global Indigenous Data Alliance, address that gap.</p>
+<p>CARE stands for collective benefit, authority to control, responsibility and ethics.</p>
+<p>The principles assert the rights of Indigenous peoples over data about them, their lands and their knowledge, and they’re meant to sit alongside FAIR.</p>
+<hr>
+<p>Controlled access sits between open and closed, and it takes a lot of work.</p>
+<p>At the CITF Databank, researchers apply for access, a committee reviews each request, and approved users sign an agreement before they receive anything.</p>
+<p>None of that shows up when we simply say the data are available.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="reusing-data" class="level2">
+<h2 class="anchored" data-anchor-id="reusing-data">Reusing data</h2>
+<p>Policies treat availability as the goal.</p>
+<p>Once data are deposited, they count as open.</p>
+<p>But reusers still have to find the data, decide whether to trust them and work out how to read them.</p>
+<hr>
+<p>Ixchel Faniel and Elizabeth Yakel interviewed reusers in archaeology, quantitative social science and zoology.</p>
+<p>Reusers drew on many sources at once.</p>
+<p>They read the original publications, repository records, documentation and codebooks.</p>
+<p>They talked to the people who produced the data, and sometimes they went back to the physical specimens or artifacts.</p>
+<p>Above all, they judged data by how complete the documentation was.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>The weakest form of availability is the promise to share on request.</p>
+<p>One team found nearly eighteen hundred articles whose authors said they would share their data on request, and then actually asked.</p>
+<p>Fewer than one in seven authors responded, and 122 sent the data.</p>
+<p>That’s under seven percent.</p>
+<hr>
+<p>Each of these depends on curation, from describing data so that people can find them to documenting how they were made so that people can trust them.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="maintaining-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="maintaining-repositories">Maintaining repositories</h2>
+<p>A deposit is a promise about the future.</p>
+<p>Somebody has to keep the files readable, the links working and the servers running for years after the project ends.</p>
+<p>The proposed Tri-Agency deposit requirement would have researchers retain their data, code and documentation for ten years.</p>
+<hr>
+<p>The TRUST principles describe what a repository should be able to demonstrate before anyone hands it that responsibility.</p>
+<p>Sustainability matters most here.</p>
+<p>A repository has to show that it can keep operating and preserving its holdings over the long term.</p>
+<p>CoreTrustSeal certifies repositories against requirements along these lines.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Grants last a few years.</p>
+<p>Storage, staff and format migrations cost money every year.</p>
+<p>So who pays for years three through ten?</p>
+<p>Often nobody planned for it, and the cost lands on a library or a repository that was never part of the original budget.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="release-and-upkeep" class="level2">
+<h2 class="anchored" data-anchor-id="release-and-upkeep">Release and upkeep</h2>
+<p>Context, access terms, reuse and maintenance all show the same pattern.</p>
+<p>Open science asks for release.</p>
+<p>Curation asks who looks after the data, for whom and for how long.</p>
+<hr>
+<p>Those questions have no single answer, and the people answering them day to day barely appear in open science policy.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="methodological-pluralism" class="level2 divider">
+<h2 class="divider anchored" data-anchor-id="methodological-pluralism"><span class="num">4</span> Methodological pluralism</h2>
+<p>So far I’ve talked about data as if all research produced the same kind.</p>
+<p>It doesn’t, and that creates problems for a single model of open science.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="open-science-practices-and-confirmatory-research" class="level2">
+<h2 class="anchored" data-anchor-id="open-science-practices-and-confirmatory-research">Open science practices and confirmatory research</h2>
+<p>The standard open science practices grew out of one kind of research, the confirmatory experiment, and especially out of the replication debates in psychology and biomedicine.</p>
+<p>Registering a study in advance means fixing the hypothesis and the analysis plan before collecting any data.</p>
+<p>Replication means that someone else repeats the study to see whether the results hold.</p>
+<p>Data sharing assumes that data can be detached from the people who made them and still make sense.</p>
+<hr>
+<p>These practices suit some research well and other research badly.</p>
+<p>Think of an ethnographer, an archaeologist excavating a site that the excavation itself destroys, or a field biologist recording a season that will never recur.</p>
+<p>None of them can fix a hypothesis in advance in any meaningful way, and none of their studies can be repeated.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Sabina Leonelli argues that standardized, top-down open science policy ignores this diversity.</p>
+<p>Policies designed around one way of doing research can entrench that way of doing it, along with the inequities that come with it, and push other kinds of research to the margins.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="three-kinds-of-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="three-kinds-of-reproducibility">Three kinds of reproducibility</h2>
+<p>Even research that aims to be reproducible means different things by the word.</p>
+<p>Steven Goodman, Daniele Fanelli and John Ioannidis distinguish three kinds.</p>
+<hr>
+<p>Methods reproducibility means repeating the same procedures on the same data and getting the same result.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Results reproducibility means running a new study and getting results that corroborate the original.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Inferential reproducibility means drawing conclusions of similar strength from a replication or a reanalysis, and that comes down to expert judgement.</p>
+<hr>
+<p>Open data and open code serve the first kind most directly.</p>
+<p>They do much less for the other two, which depend on new studies and on judgement.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Which of these makes sense for the kind of research you know best?</p>
+<p>And is there one that doesn’t apply at all?</p>
+<div class="cue pause">
+<p><em>Give thirty seconds, then take two or three answers</em></p>
+</div>
+<hr>
+<blockquote class="blockquote">
+<p><strong>Running the question.</strong> Allow about two minutes.</p>
+<ol type="1">
+<li>Once the question appears, give the room thirty seconds to think or to talk with a neighbour.</li>
+<li>Ask two or three people to name a field or a kind of research they know, and say which kind of reproducibility fits it.</li>
+<li>Expect lab sciences and quantitative social science to pick methods or results reproducibility. Expect qualitative, historical and archival work to say that none of the three fits well. That answer is Leonelli’s point, so say so.</li>
+<li>If nobody answers, offer an oral history archive. Nobody can rerun an interview, and a second interviewer would hear a different story. Ask which kind of reproducibility could apply.</li>
+</ol>
+</blockquote>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong> once the activity wraps up</p>
+</div>
+</section>
+<section id="tensions-with-ai" class="level2 divider">
+<h2 class="divider anchored" data-anchor-id="tensions-with-ai"><span class="num">5</span> Tensions with AI</h2>
+<p>AI puts new pressure on the access terms and the maintenance problems we just looked at, and it changes who might do curation work.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="open-licences-and-ai-training" class="level2">
+<h2 class="anchored" data-anchor-id="open-licences-and-ai-training">Open licences and AI training</h2>
+<p>Open science wants research outputs to be reusable by anyone, for any purpose.</p>
+<p>The licences it relies on, especially Creative Commons Attribution, were designed for exactly that.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>They were written before large language models, and they give authors no practical way to say yes to a student and no to a company training a commercial model.</p>
+<hr>
+<p>Creative Commons started a project in 2025 called CC signals, which would let people state their preferences about AI reuse in a form both people and machines can read.</p>
+<p>Those signals only work if AI developers choose to respect them.</p>
+<hr>
+<p>For curators, this reopens the question of access terms.</p>
+<p>When the reuser is a crawler feeding a training pipeline, it’s no longer obvious what open access is meant to accomplish.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="ai-crawlers-and-open-repositories" class="level2">
+<h2 class="anchored" data-anchor-id="ai-crawlers-and-open-repositories">AI crawlers and open repositories</h2>
+<p>AI also strains the infrastructure that open science depends on.</p>
+<p>In 2025 the Confederation of Open Access Repositories, an international association of repositories, surveyed sixty-six of them around the world.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>More than ninety percent said aggressive bots were hitting their services, usually more than once a week.</p>
+<p>Respondents described slowdowns, outages and crashes that needed manual restarts, and they said the traffic had grown sharply over the previous two years.</p>
+<div class="cue click">
+<p><strong>CLICK</strong></p>
+</div>
+<p>Repositories have responded by blocking or throttling bots.</p>
+<p>Some of these measures work, but they also block legitimate users and the benign services, like search indexers, that make content findable in the first place.</p>
+<hr>
+<p>This is the maintenance problem from earlier, made worse.</p>
+<p>Repositories built to give people access now spend staff time and money keeping machines out.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="who-should-curate" class="level2">
+<h2 class="anchored" data-anchor-id="who-should-curate">Who should curate?</h2>
+<p>AI tools are now being pitched as a fix for the curation burden.</p>
+<p>They draft metadata, suggest subject terms and summarize datasets.</p>
+<hr>
+<p>So let’s sort some jobs.</p>
+<p>For each one, tell me who should do it, whether that’s the researcher, a curator, a model, or no one at all.</p>
+<p>One vote per job.</p>
+<div class="cue pause">
+<p><em>Run the sort, then come back for the debrief</em></p>
+</div>
+<hr>
+<p>A model can draft a description, but it doesn’t know how the data were made, and nobody can hold it accountable for what it writes.</p>
+<p>Someone still has to check the output and sign off on it.</p>
+<p>Setting access terms depends on consent and on the people the data describe, and a model has no way of knowing either.</p>
+<p>Checking a deposit is exactly the kind of judgement curators are trained for.</p>
+<p>And keeping files usable for ten years tends to end up with no one, unless an institution takes it on.</p>
+<hr>
+<blockquote class="blockquote">
+<p><strong>Running the sort.</strong> Allow about five minutes.</p>
+<ol type="1">
+<li>Read the first job aloud. Ask for hands for researcher, then curator, then model, then no one, one vote per person. Say the leading answer aloud.</li>
+<li>Repeat for the other three jobs at a brisk pace, about forty-five seconds each.</li>
+<li>Go back to the job with the most even split and ask one person from each side to explain.</li>
+<li>Expect describing the data to split between researcher and model, and keeping files usable to land on curator. If it does, ask which curator, at which institution, and paid by whom.</li>
+<li>If the room goes quiet, ask who has written a metadata record and how long it took.</li>
+<li>Finish with the debrief paragraph above.</li>
+</ol>
+</blockquote>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong> once the activity wraps up</p>
+</div>
+</section>
+<section id="open-science-needs-curation" class="level2">
+<h2 class="anchored" data-anchor-id="open-science-needs-curation">Open science needs curation</h2>
+<p>Open science has good motivations, and Canada is putting serious policy behind it.</p>
+<p>But most of the conversation about open science is about releasing things.</p>
+<hr>
+<p>Curation asks what happens next.</p>
+<p>Someone has to keep data meaningful and available, for particular people, over a long stretch of time.</p>
+<p>Right now a lot of that work falls to researchers who were never trained for it and are rarely paid for it, supported by curators and repositories whose own funding is uncertain.</p>
+<hr>
+<p>Look back at the words you gave me at the start.</p>
+<p>I suspect most of them were about access, and very few were about upkeep.</p>
+<p>Upkeep is the part of open science your field knows best, and it’s where people with your training are most needed.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<blockquote class="blockquote">
+<p><strong>Running the discussion.</strong> Leave this slide up through questions. Take questions from the room first. If things go quiet, read one card aloud and let someone answer, or ask the room to pick a card. The notes below give background for each.</p>
+<ol type="1">
+<li><p>Grants end, and the proposed Tri-Agency requirement asks for ten years of retention. The options include research budgets, institutional libraries, national infrastructure like the Alliance and Borealis, and disciplinary repositories. Each one shifts the work onto different people, and each one can disappear when its own funding changes.</p></li>
+<li><p>Researchers now write data management plans, choose licences and pick repositories, often with no training. Libraries and data centres hold most of the relevant expertise. It’s worth asking what a first-year graduate student actually needs to know, and who is in a position to teach it.</p></li>
+<li><p>Open licences permit broad reuse, and many researchers are uneasy about their work training commercial models. Restricting access would cut against open science mandates, and leaving it open feeds crawlers that already strain repositories. Preference signals depend on AI developers respecting them.</p></li>
+</ol>
+</blockquote>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong> to the reading list once questions end</p>
+</div>
+</section>
+<section id="reading-list" class="level2">
+<h2 class="anchored" data-anchor-id="reading-list">Reading list</h2>
+<p>These are the readings behind the talk.</p>
+<p>The slides and notes are online at the address on the title slide.</p>
+<div class="cue next">
+<p><strong>NEXT SLIDE</strong></p>
+</div>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zackbatist\.info\/INFS649-DigitalCuration\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/publicdomain/zero/1.0/">
+ CC0
+    </a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zackbatist/INFS649-DigitalCuration/blob/main/2026/notes.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <div class="footer-contents">This page is built with ❤️ and [Quarto](https://quarto.org/).</div>  
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

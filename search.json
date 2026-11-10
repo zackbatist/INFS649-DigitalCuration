@@ -1,5 +1,215 @@
 [
   {
+    "objectID": "2026/notes/index.html",
+    "href": "2026/notes/index.html",
+    "title": "Issues on Open Science",
+    "section": "",
+    "text": "Open the slides"
+  },
+  {
+    "objectID": "2026/notes/index.html#about-me",
+    "href": "2026/notes/index.html#about-me",
+    "title": "Issues on Open Science",
+    "section": "About me",
+    "text": "About me\nI’m a postdoc in epidemiology here at McGill, where I work on the Covid-19 Immunity Task Force Databank.\nThe Databank brings together data from the studies the Task Force funded during the pandemic and makes them available to other researchers.\nMy own research there looks at how that sharing actually gets done, including the agreements, the coordination and the administrative work that let data move from one team to another.\n\nBefore that, I did my PhD at the Faculty of Information at the University of Toronto.\nI studied how archaeologists work with data together, especially in large projects where many people record and interpret the same material.\n\nI’ve also been involved in open source communities for a long time, and I help maintain a few community projects for archaeologists.\nSo I come to open science as someone who studies it, and also as someone who does a lot of its less visible work.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#what-does-open-mean-in-your-work",
+    "href": "2026/notes/index.html#what-does-open-mean-in-your-work",
+    "title": "Issues on Open Science",
+    "section": "What does “open” mean in your work?",
+    "text": "What does “open” mean in your work?\nBefore I say anything about open science, I’d like to hear what you already associate with openness.\nCall out a word or two.\nIt can be something you’ve used, something you’ve been asked to do, or something that came up in another course.\nI’ll write a few of these down, and we’ll come back to them at the end.\n\nCollect five to eight words\n\n\n\nRunning the warm-up. Allow about two minutes.\n\nTake five to eight words from the room and write them on the board, or on paper if there’s no board.\nExpect words like free, access, sharing, transparent, public and Creative Commons. Don’t comment on them yet.\nIf nobody speaks, ask what they’d expect to find behind a link labelled “open data”.\nKeep the list. The closing slide comes back to it.\n\n\n\nNEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/notes/index.html#open-science-as-a-movement",
+    "href": "2026/notes/index.html#open-science-as-a-movement",
+    "title": "Issues on Open Science",
+    "section": "1 Open science as a movement",
+    "text": "1 Open science as a movement\nFirst, what open science is, and how it reaches researchers here in Canada.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#unescos-definition",
+    "href": "2026/notes/index.html#unescos-definition",
+    "title": "Issues on Open Science",
+    "section": "UNESCO’s definition",
+    "text": "UNESCO’s definition\nUNESCO adopted a Recommendation on Open Science in 2021, and its definition is the one people quote most often.\nThe definition makes two commitments.\n\nThe first commitment is to access.\nResearch from every field should be available to everyone, for the benefit of scientists and of society.\n\nThe second commitment concerns how knowledge gets produced.\nUNESCO asks that research itself be inclusive, equitable and sustainable, which raises questions about who gets to take part in research and on what terms.\n\nMost open science policy and infrastructure addresses the first commitment.\nThe second gets far less attention.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#what-open-science-includes",
+    "href": "2026/notes/index.html#what-open-science-includes",
+    "title": "Issues on Open Science",
+    "section": "What open science includes",
+    "text": "What open science includes\nOpen science brings together several movements that grew up somewhat separately.\nThis figure divides them into six strands.\nIt’s one classification among several.\nBenedikt Fecher and Sascha Friesike, for example, sort open science into five schools of thought according to what each one is trying to achieve, such as public participation in research or more efficient research.\n\n\nOpen access makes publications free to read.\nOpen data makes the data behind those publications available, and open source does the same for the software and code that process and analyse the data.\nOpen methods documents research protocols, so readers can see how a study was designed and carried out.\n\nThese four work as a unit.\nA paper reports findings, and a reader who wants to evaluate those findings needs the data, the code and the protocol that produced them.\n\nOpen peer review extends the same transparency to evaluation.\nJournals publish the reviews alongside the paper, and sometimes the reviewers’ names, so readers can see how the work was assessed and what changed in response.\n\nOpen educational resources apply open licensing to teaching materials, including textbooks and course notes.\nThey also draw on the other five, since openly licensed papers and datasets make good teaching material.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#justifications-for-open-science",
+    "href": "2026/notes/index.html#justifications-for-open-science",
+    "title": "Issues on Open Science",
+    "section": "Justifications for open science",
+    "text": "Justifications for open science\nThere are two kinds of justification for open science.\n\nThe first is epistemic.\nWhen the data, code and protocols behind a paper are available, reviewers and other researchers in the field can rerun the analysis and test whether the reported results hold.\nErrors that would otherwise go unnoticed can be caught and corrected after publication.\nShared data can also be combined with other datasets or reanalysed with different methods, which extends their value well beyond the project that produced them.\n\nCLICK\n\nThe second is political and economic.\nPublic money funds most research, so the public should be able to read the results.\nOpenness also gives funders a clearer view of what their grants produce, which informs how they assess public investment in research and where they direct future funding.\nAnd journal subscription costs have strained library budgets for decades, which is a big reason librarians were early advocates of open access.\n\nBoth kinds of justification concern research outputs, meaning the papers, datasets and code that can be released and counted.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#tri-agency-policies",
+    "href": "2026/notes/index.html#tri-agency-policies",
+    "title": "Issues on Open Science",
+    "section": "Tri-Agency policies",
+    "text": "Tri-Agency policies\nIn Canada, the three federal granting agencies, CIHR, NSERC and SSHRC, set these requirements together as the Tri-Agency.\n\nOn open access, the 2015 policy asked that articles be freely available within twelve months of publication.\nA revised policy removes that delay.\nFor grants awarded from January 2027, articles have to be available in a Canadian repository or on a Canadian platform on the day they’re published.\n\nOn data, the Research Data Management Policy has come in stages.\nSome funding calls have required a data management plan since 2022, and universities had to post institutional data management strategies in 2023.\nThe last stage is a deposit requirement.\nResearchers would deposit the data, code and documentation behind their publications, and keep them for ten years.\nIt’s expected to start in 2027, but the agencies haven’t published the final text yet.\n\nEach stage adds tasks for researchers.\nA data management plan has to be written before any data exist, and a deposit has to be documented well enough for someone outside the project to use it.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#infrastructure-behind-the-tri-agency-policies",
+    "href": "2026/notes/index.html#infrastructure-behind-the-tri-agency-policies",
+    "title": "Issues on Open Science",
+    "section": "Infrastructure behind the Tri-Agency policies",
+    "text": "Infrastructure behind the Tri-Agency policies\nResearchers meet these policies through a set of national services, and each one supports a different requirement.\n\nThe Digital Research Alliance of Canada is a federally funded organization that coordinates national computing, storage and research data management.\nIt runs the DMP Assistant, the tool most Canadian researchers use to write the data management plans the Tri-Agency now asks for.\n\nWhen a project has data to deposit, Borealis is a likely destination.\nIt’s a shared repository built on Dataverse, an open source platform for sharing and citing research data, and university libraries across the country run it together.\nMcGill has its own collection there.\n\nDeposited data still have to be found.\nThe Alliance also runs the Federated Research Data Repository, which gathers metadata from Borealis and other Canadian repositories so that people can search them in one place.\n\nAll of these services depend on continued public funding and on the staff who maintain them.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#curation-in-open-science",
+    "href": "2026/notes/index.html#curation-in-open-science",
+    "title": "Issues on Open Science",
+    "section": "2 Curation in open science",
+    "text": "2 Curation in open science\nEvery open output, whether a paper, a dataset or a piece of code, has to be described, deposited and kept usable before anyone else can rely on it.\nThat work is digital curation.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#a-paper-and-its-linked-records",
+    "href": "2026/notes/index.html#a-paper-and-its-linked-records",
+    "title": "Issues on Open Science",
+    "section": "A paper and its linked records",
+    "text": "A paper and its linked records\nThis is what open science looks like around a single paper today.\n\nThe paper sits in the middle.\nIt has a DOI registered through Crossref, and its licence is recorded with that DOI.\n\nOn the left are the people and organizations behind it.\nEach author has an ORCID identifier, and each institution has a ROR identifier.\nThe CRediT taxonomy describes what each author contributed.\nFunders and grants carry identifiers too, and open reviews from services like eLife, PubPeer and Peer Community In link back to the paper.\n\nOn the right is what the paper rests on.\nA registered plan records what the researchers meant to do before they collected any data.\nThe dataset has its own DOI from DataCite and sits in a repository like Zenodo, OSF or Borealis.\nThe code lives on GitHub or a similar platform, sometimes packaged as notebooks so that others can rerun the analysis.\n\nOpenAlex gathers all these records, and the links between them, into one open catalogue.\n\nEvery one of these links exists because someone created it, checked it and keeps it current.\nWhen an identifier is missing or wrong, the link breaks, and nobody downstream can follow it.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#decisions-behind-the-records",
+    "href": "2026/notes/index.html#decisions-behind-the-records",
+    "title": "Issues on Open Science",
+    "section": "Decisions behind the records",
+    "text": "Decisions behind the records\nEvery record in that picture rests on decisions that someone has to make.\n\nSomeone decides how to describe the data so that people outside the project can find and interpret them, and what to record about how the data were made.\nSomeone decides how the project will handle data before it collects any, which licence to apply, and which repository to use.\nSomeone decides what to keep and for how long, how to show the funder the policy was met, and what happens to the data after the grant ends.\n\nCLICK\n\nUnder the Tri-Agency policies, most of these decisions fall to researchers.\nArchivists, librarians and data curators train for this work in information studies programs like this one.\nMost researchers pick it up on the job, the same way they learn to teach or to manage a project, with little formal training and a lot of improvisation.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#who-curates-research-data",
+    "href": "2026/notes/index.html#who-curates-research-data",
+    "title": "Issues on Open Science",
+    "section": "Who curates research data?",
+    "text": "Who curates research data?\nDigital curation has its roots in archives and libraries, where trained professionals take custody of material and care for it over time.\nCostis Dallas, who supervised my doctorate, argues that this custodial view no longer covers what curation is.\nResearchers, communities and users also curate, wherever they work with digital material that keeps changing.\nOpen science policy turns that observation into an obligation, since researchers now have to prepare their own data for others.\n\nCLICK\n\nThe question is whether they have what they need to do it.\nIxchel Faniel and Elizabeth Yakel compared data sharing in three disciplines, and they found that the people who produce data often lack the money, tools and staff to prepare it for sharing.\nIn disciplines where repository or museum staff help, producers carry less of the load.\nElsewhere, the work stays with whoever is left in the project.\n\nCLICK\n\nEven professional curation is harder than it looks from outside.\nAndrea Thomer and her colleagues studied curators at ICPSR, a large social science data archive.\nThe curators relied on judgement and constant back and forth with depositors, and their work rarely followed the steps that lifecycle models describe.\nMuch of it never appeared in any record of who contributed to the data.\n\nSo open science policy has moved skilled and largely invisible work onto researchers, many of whom have neither the training nor the support to do it well.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#complicating-openness",
+    "href": "2026/notes/index.html#complicating-openness",
+    "title": "Issues on Open Science",
+    "section": "3 Complicating openness",
+    "text": "3 Complicating openness\nOpen science policy measures openness at the moment of release, when a paper is published or a dataset is deposited.\nCuration is concerned with everything after that moment, for as long as anyone uses the data.\nThe difference shows up in how data carry context, in how access terms get set, in what reuse actually involves, and in who maintains the infrastructure.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#data-and-their-context",
+    "href": "2026/notes/index.html#data-and-their-context",
+    "title": "Issues on Open Science",
+    "section": "Data and their context",
+    "text": "Data and their context\nData get their meaning from how they were made.\nThat includes who collected them, with what instruments, under what conditions and for what purpose.\n\nCLICK\n\nMetadata are supposed to capture that context, and they do capture some of it.\nThe rest stays with the people who did the work.\nIt’s tacit knowledge, and they rarely think to write it down because to them it’s obvious.\n\nPaul Edwards and his colleagues call this science friction.\nIn their study of interdisciplinary environmental research, metadata were never finished.\nMaking sense of shared data took ongoing conversation between the people who made the data and the people trying to use them.\n\nIrene Pasquetto, Christine Borgman and Morgan Wofford found a similar pattern among scientists who reuse data.\nFor simple comparisons, reusers could get by with what had been deposited.\nWhen they wanted to integrate someone else’s data into their own analysis, they generally preferred to work with the people who created them.\n\nSo documenting data is an act of interpretation.\nWhoever does it, a curator or a researcher acting as one, has to anticipate what future users will need to know without knowing who those users are.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#how-open-should-these-data-be",
+    "href": "2026/notes/index.html#how-open-should-these-data-be",
+    "title": "Issues on Open Science",
+    "section": "How open should these data be?",
+    "text": "How open should these data be?\nHere are four kinds of data.\nFor each one, decide whether it should be open, shared under controlled access, or kept closed.\nControlled access means approved users can get the data after they sign an agreement.\nClosed means the data stay with the project team.\n\nRun the vote, one row at a time\n\n\nAir quality readings tend to go open with little disagreement.\nNobody is identifiable in them, and wide reuse is the point of collecting them.\nSurvey responses split more, because even anonymized answers can identify people once someone links them with other datasets.\nArchaeological site locations usually end up controlled or closed, since publishing them invites looting.\n\nGenomic data from an Indigenous community raise a different question.\nHere the question is who has the authority to decide.\n\nThe answers changed with the data, and with the people the data describe.\n\n\nRunning the vote. Allow about five minutes.\n\nRead the two definitions at the bottom of the slide before starting.\nGo row by row. Ask for hands for open, then controlled access, then closed, one vote per person. Say the leading answer aloud.\nOn the row with the most even split, ask one person from each side to explain, about thirty seconds each.\nExpect air quality readings to go open, survey responses to split between open and controlled access, and site locations to go controlled or closed. If site locations go open, raise looting. If survey responses go open, raise reidentification through linked datasets.\nFor the genomic data, ask who should get to decide. Take one or two answers and move on, since the next slide gives the CARE principles’ answer.\n\n\n\nNEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/notes/index.html#as-open-as-possible-as-closed-as-necessary",
+    "href": "2026/notes/index.html#as-open-as-possible-as-closed-as-necessary",
+    "title": "Issues on Open Science",
+    "section": "As open as possible, as closed as necessary",
+    "text": "As open as possible, as closed as necessary\nThe European Commission put the principle this way: as open as possible, as closed as necessary.\nOpenness is the default, and restriction is legitimate when there’s a reason for it.\nSomebody has to weigh those reasons for each dataset, and then write the outcome into the record so the next person can follow it.\n\nThe FAIR principles are the best-known guide for that work.\nThey ask that data be findable, accessible, interoperable and reusable.\nThey’re about the data, and they say nothing about whose data these are.\n\nCLICK\n\nThe CARE principles, from the Global Indigenous Data Alliance, address that gap.\nCARE stands for collective benefit, authority to control, responsibility and ethics.\nThe principles assert the rights of Indigenous peoples over data about them, their lands and their knowledge, and they’re meant to sit alongside FAIR.\n\nControlled access sits between open and closed, and it takes a lot of work.\nAt the CITF Databank, researchers apply for access, a committee reviews each request, and approved users sign an agreement before they receive anything.\nNone of that shows up when we simply say the data are available.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#reusing-data",
+    "href": "2026/notes/index.html#reusing-data",
+    "title": "Issues on Open Science",
+    "section": "Reusing data",
+    "text": "Reusing data\nPolicies treat availability as the goal.\nOnce data are deposited, they count as open.\nBut reusers still have to find the data, decide whether to trust them and work out how to read them.\n\nIxchel Faniel and Elizabeth Yakel interviewed reusers in archaeology, quantitative social science and zoology.\nReusers drew on many sources at once.\nThey read the original publications, repository records, documentation and codebooks.\nThey talked to the people who produced the data, and sometimes they went back to the physical specimens or artifacts.\nAbove all, they judged data by how complete the documentation was.\n\nCLICK\n\nThe weakest form of availability is the promise to share on request.\nOne team found nearly eighteen hundred articles whose authors said they would share their data on request, and then actually asked.\nFewer than one in seven authors responded, and 122 sent the data.\nThat’s under seven percent.\n\nEach of these depends on curation, from describing data so that people can find them to documenting how they were made so that people can trust them.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#maintaining-repositories",
+    "href": "2026/notes/index.html#maintaining-repositories",
+    "title": "Issues on Open Science",
+    "section": "Maintaining repositories",
+    "text": "Maintaining repositories\nA deposit is a promise about the future.\nSomebody has to keep the files readable, the links working and the servers running for years after the project ends.\nThe proposed Tri-Agency deposit requirement would have researchers retain their data, code and documentation for ten years.\n\nThe TRUST principles describe what a repository should be able to demonstrate before anyone hands it that responsibility.\nSustainability matters most here.\nA repository has to show that it can keep operating and preserving its holdings over the long term.\nCoreTrustSeal certifies repositories against requirements along these lines.\n\nCLICK\n\nGrants last a few years.\nStorage, staff and format migrations cost money every year.\nSo who pays for years three through ten?\nOften nobody planned for it, and the cost lands on a library or a repository that was never part of the original budget.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#release-and-upkeep",
+    "href": "2026/notes/index.html#release-and-upkeep",
+    "title": "Issues on Open Science",
+    "section": "Release and upkeep",
+    "text": "Release and upkeep\nContext, access terms, reuse and maintenance all show the same pattern.\nOpen science asks for release.\nCuration asks who looks after the data, for whom and for how long.\n\nThose questions have no single answer, and the people answering them day to day barely appear in open science policy.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#methodological-pluralism",
+    "href": "2026/notes/index.html#methodological-pluralism",
+    "title": "Issues on Open Science",
+    "section": "4 Methodological pluralism",
+    "text": "4 Methodological pluralism\nSo far I’ve talked about data as if all research produced the same kind.\nIt doesn’t, and that creates problems for a single model of open science.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#open-science-practices-and-confirmatory-research",
+    "href": "2026/notes/index.html#open-science-practices-and-confirmatory-research",
+    "title": "Issues on Open Science",
+    "section": "Open science practices and confirmatory research",
+    "text": "Open science practices and confirmatory research\nThe standard open science practices grew out of one kind of research, the confirmatory experiment, and especially out of the replication debates in psychology and biomedicine.\nRegistering a study in advance means fixing the hypothesis and the analysis plan before collecting any data.\nReplication means that someone else repeats the study to see whether the results hold.\nData sharing assumes that data can be detached from the people who made them and still make sense.\n\nThese practices suit some research well and other research badly.\nThink of an ethnographer, an archaeologist excavating a site that the excavation itself destroys, or a field biologist recording a season that will never recur.\nNone of them can fix a hypothesis in advance in any meaningful way, and none of their studies can be repeated.\n\nCLICK\n\nSabina Leonelli argues that standardized, top-down open science policy ignores this diversity.\nPolicies designed around one way of doing research can entrench that way of doing it, along with the inequities that come with it, and push other kinds of research to the margins.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#three-kinds-of-reproducibility",
+    "href": "2026/notes/index.html#three-kinds-of-reproducibility",
+    "title": "Issues on Open Science",
+    "section": "Three kinds of reproducibility",
+    "text": "Three kinds of reproducibility\nEven research that aims to be reproducible means different things by the word.\nSteven Goodman, Daniele Fanelli and John Ioannidis distinguish three kinds.\n\nMethods reproducibility means repeating the same procedures on the same data and getting the same result.\n\nCLICK\n\nResults reproducibility means running a new study and getting results that corroborate the original.\n\nCLICK\n\nInferential reproducibility means drawing conclusions of similar strength from a replication or a reanalysis, and that comes down to expert judgement.\n\nOpen data and open code serve the first kind most directly.\nThey do much less for the other two, which depend on new studies and on judgement.\n\nCLICK\n\nWhich of these makes sense for the kind of research you know best?\nAnd is there one that doesn’t apply at all?\n\nGive thirty seconds, then take two or three answers\n\n\n\nRunning the question. Allow about two minutes.\n\nOnce the question appears, give the room thirty seconds to think or to talk with a neighbour.\nAsk two or three people to name a field or a kind of research they know, and say which kind of reproducibility fits it.\nExpect lab sciences and quantitative social science to pick methods or results reproducibility. Expect qualitative, historical and archival work to say that none of the three fits well. That answer is Leonelli’s point, so say so.\nIf nobody answers, offer an oral history archive. Nobody can rerun an interview, and a second interviewer would hear a different story. Ask which kind of reproducibility could apply.\n\n\n\nNEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/notes/index.html#tensions-with-ai",
+    "href": "2026/notes/index.html#tensions-with-ai",
+    "title": "Issues on Open Science",
+    "section": "5 Tensions with AI",
+    "text": "5 Tensions with AI\nAI puts new pressure on the access terms and the maintenance problems we just looked at, and it changes who might do curation work.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#open-licences-and-ai-training",
+    "href": "2026/notes/index.html#open-licences-and-ai-training",
+    "title": "Issues on Open Science",
+    "section": "Open licences and AI training",
+    "text": "Open licences and AI training\nOpen science wants research outputs to be reusable by anyone, for any purpose.\nThe licences it relies on, especially Creative Commons Attribution, were designed for exactly that.\n\nCLICK\n\nThey were written before large language models, and they give authors no practical way to say yes to a student and no to a company training a commercial model.\n\nCreative Commons started a project in 2025 called CC signals, which would let people state their preferences about AI reuse in a form both people and machines can read.\nThose signals only work if AI developers choose to respect them.\n\nFor curators, this reopens the question of access terms.\nWhen the reuser is a crawler feeding a training pipeline, it’s no longer obvious what open access is meant to accomplish.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#ai-crawlers-and-open-repositories",
+    "href": "2026/notes/index.html#ai-crawlers-and-open-repositories",
+    "title": "Issues on Open Science",
+    "section": "AI crawlers and open repositories",
+    "text": "AI crawlers and open repositories\nAI also strains the infrastructure that open science depends on.\nIn 2025 the Confederation of Open Access Repositories, an international association of repositories, surveyed sixty-six of them around the world.\n\nCLICK\n\nMore than ninety percent said aggressive bots were hitting their services, usually more than once a week.\nRespondents described slowdowns, outages and crashes that needed manual restarts, and they said the traffic had grown sharply over the previous two years.\n\nCLICK\n\nRepositories have responded by blocking or throttling bots.\nSome of these measures work, but they also block legitimate users and the benign services, like search indexers, that make content findable in the first place.\n\nThis is the maintenance problem from earlier, made worse.\nRepositories built to give people access now spend staff time and money keeping machines out.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#who-should-curate",
+    "href": "2026/notes/index.html#who-should-curate",
+    "title": "Issues on Open Science",
+    "section": "Who should curate?",
+    "text": "Who should curate?\nAI tools are now being pitched as a fix for the curation burden.\nThey draft metadata, suggest subject terms and summarize datasets.\n\nSo let’s sort some jobs.\nFor each one, tell me who should do it, whether that’s the researcher, a curator, a model, or no one at all.\nOne vote per job.\n\nRun the sort, then come back for the debrief\n\n\nA model can draft a description, but it doesn’t know how the data were made, and nobody can hold it accountable for what it writes.\nSomeone still has to check the output and sign off on it.\nSetting access terms depends on consent and on the people the data describe, and a model has no way of knowing either.\nChecking a deposit is exactly the kind of judgement curators are trained for.\nAnd keeping files usable for ten years tends to end up with no one, unless an institution takes it on.\n\n\nRunning the sort. Allow about five minutes.\n\nRead the first job aloud. Ask for hands for researcher, then curator, then model, then no one, one vote per person. Say the leading answer aloud.\nRepeat for the other three jobs at a brisk pace, about forty-five seconds each.\nGo back to the job with the most even split and ask one person from each side to explain.\nExpect describing the data to split between researcher and model, and keeping files usable to land on curator. If it does, ask which curator, at which institution, and paid by whom.\nIf the room goes quiet, ask who has written a metadata record and how long it took.\nFinish with the debrief paragraph above.\n\n\n\nNEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/notes/index.html#open-science-needs-curation",
+    "href": "2026/notes/index.html#open-science-needs-curation",
+    "title": "Issues on Open Science",
+    "section": "Open science needs curation",
+    "text": "Open science needs curation\nOpen science has good motivations, and Canada is putting serious policy behind it.\nBut most of the conversation about open science is about releasing things.\n\nCuration asks what happens next.\nSomeone has to keep data meaningful and available, for particular people, over a long stretch of time.\nRight now a lot of that work falls to researchers who were never trained for it and are rarely paid for it, supported by curators and repositories whose own funding is uncertain.\n\nLook back at the words you gave me at the start.\nI suspect most of them were about access, and very few were about upkeep.\nUpkeep is the part of open science your field knows best, and it’s where people with your training are most needed.\n\nNEXT SLIDE"
+  },
+  {
+    "objectID": "2026/notes/index.html#discussion",
+    "href": "2026/notes/index.html#discussion",
+    "title": "Issues on Open Science",
+    "section": "Discussion",
+    "text": "Discussion\n\nRunning the discussion. Leave this slide up through questions. Take questions from the room first. If things go quiet, read one card aloud and let someone answer, or ask the room to pick a card. The notes below give background for each.\n\nGrants end, and the proposed Tri-Agency requirement asks for ten years of retention. The options include research budgets, institutional libraries, national infrastructure like the Alliance and Borealis, and disciplinary repositories. Each one shifts the work onto different people, and each one can disappear when its own funding changes.\nResearchers now write data management plans, choose licences and pick repositories, often with no training. Libraries and data centres hold most of the relevant expertise. It’s worth asking what a first-year graduate student actually needs to know, and who is in a position to teach it.\nOpen licences permit broad reuse, and many researchers are uneasy about their work training commercial models. Restricting access would cut against open science mandates, and leaving it open feeds crawlers that already strain repositories. Preference signals depend on AI developers respecting them.\n\n\n\nNEXT SLIDE to the reading list once questions end"
+  },
+  {
+    "objectID": "2026/notes/index.html#reading-list",
+    "href": "2026/notes/index.html#reading-list",
+    "title": "Issues on Open Science",
+    "section": "Reading list",
+    "text": "Reading list\nThese are the readings behind the talk.\nThe slides and notes are online at the address on the title slide.\n\nNEXT SLIDE"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "INFS649-DigitalCuration",
@@ -327,5 +537,208 @@
     "title": "INFS649-DigitalCuration",
     "section": "bad",
     "text": "bad\nWhen speaking with those who work for the archives themselves, I uncovered another interesting tension Specifically, between the technical and conceptual aspects of archival work\nThe focus on cleaning, documenting, and preserving data orients popular imagination of digital curation as technical work that is primarily concerned with overcoming fundamental barriers that inhibit access to and utility of data stored using digital media For instance, Amelie, who ran day-to-day data curation processes, highlighted a week-long effort to retrieve information stored on a CD-ROM, fix a corrupt database file, extract all the data from the database, and then re-format the data so that they conform to an updated data structure as an initial illustrative example of her work Paul also recalled how student workers enter and edit data, and Ned, who worked for the data service in a supportive capacity, discussed his contributions in fieldwork settings that involved setting up interfaces with the projects’ databases and helping project participants perform data entry tasks\nAll these practical actions bear clear, tangible, and immediate effects and involve personal engagement with the digital data apparatus At the same time, my informants described these actions as means of implementing a series of core principles and design decisions, which are hidden from the user through familiar interfaces They considered these the core value of the services they provided as the work that users would not have to see, and the ability to hide this work from them\nSo I’m really interested in what gets lost when translating rough and situated observations into tidy and formally-arranged structured we like to call “data”, and how those things get found again – or are explicitly ignored – in contexts of data re-use"
+  },
+  {
+    "objectID": "2026/index.html#about-me",
+    "href": "2026/index.html#about-me",
+    "title": "Issues on Open Science",
+    "section": "About me",
+    "text": "About me\n\nPostdoc in Epidemiology at McGill\n\nCovid-19 Immunity Task Force Databank\nHow research data sharing gets done in practice\n\nPhD at the University of Toronto’s Faculty of Information\n\nHow archaeologists work with data together\n\nOpen source communities and community-maintained research infrastructure\n\n\nI’m a postdoc in epidemiology here at McGill, where I work on the Covid-19 Immunity Task Force Databank.\nThe Databank brings together data from the studies the Task Force funded during the pandemic and makes them available to other researchers.\nMy own research there looks at how that sharing actually gets done, including the agreements, the coordination and the administrative work that let data move from one team to another.\n\nBefore that, I did my PhD at the Faculty of Information at the University of Toronto.\nI studied how archaeologists work with data together, especially in large projects where many people record and interpret the same material.\n\nI’ve also been involved in open source communities for a long time, and I help maintain a few community projects for archaeologists.\nSo I come to open science as someone who studies it, and also as someone who does a lot of its less visible work.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#what-does-open-mean-in-your-work",
+    "href": "2026/index.html#what-does-open-mean-in-your-work",
+    "title": "Issues on Open Science",
+    "section": "What does “open” mean in your work?",
+    "text": "What does “open” mean in your work?\n\nBefore I say anything about open science, I’d like to hear what you already associate with openness.\nCall out a word or two.\nIt can be something you’ve used, something you’ve been asked to do, or something that came up in another course.\nI’ll write a few of these down, and we’ll come back to them at the end.\n⏸ Collect five to eight words\n\n\nRunning the warm-up. Allow about two minutes.\n\nTake five to eight words from the room and write them on the board, or on paper if there’s no board.\nExpect words like free, access, sharing, transparent, public and Creative Commons. Don’t comment on them yet.\nIf nobody speaks, ask what they’d expect to find behind a link labelled “open data”.\nKeep the list. The closing slide comes back to it.\n\n\n⏭ NEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/index.html#open-science-as-a-movement",
+    "href": "2026/index.html#open-science-as-a-movement",
+    "title": "Issues on Open Science",
+    "section": "1 Open science as a movement",
+    "text": "1 Open science as a movement\n\nFirst, what open science is, and how it reaches researchers here in Canada.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#unescos-definition",
+    "href": "2026/index.html#unescos-definition",
+    "title": "Issues on Open Science",
+    "section": "UNESCO’s definition",
+    "text": "UNESCO’s definition\n\nOpen science is a set of principles and practices that aim to make scientific research from all fields accessible to everyone for the benefits of scientists and society as a whole.\nOpen science is about making sure not only that scientific knowledge is accessible but also that the production of that knowledge itself is inclusive, equitable and sustainable.\n\n\nUNESCO adopted a Recommendation on Open Science in 2021, and its definition is the one people quote most often.\nThe definition makes two commitments.\n\nThe first commitment is to access.\nResearch from every field should be available to everyone, for the benefit of scientists and of society.\n\nThe second commitment concerns how knowledge gets produced.\nUNESCO asks that research itself be inclusive, equitable and sustainable, which raises questions about who gets to take part in research and on what terms.\n\nMost open science policy and infrastructure addresses the first commitment.\nThe second gets far less attention.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#what-open-science-includes",
+    "href": "2026/index.html#what-open-science-includes",
+    "title": "Issues on Open Science",
+    "section": "What open science includes",
+    "text": "What open science includes\n\n\nImage from Bertram et al. 2023, Current Biology\n\n\nOpen science brings together several movements that grew up somewhat separately.\nThis figure divides them into six strands.\nIt’s one classification among several.\nBenedikt Fecher and Sascha Friesike, for example, sort open science into five schools of thought according to what each one is trying to achieve, such as public participation in research or more efficient research.\n\n\nOpen access makes publications free to read.\nOpen data makes the data behind those publications available, and open source does the same for the software and code that process and analyse the data.\nOpen methods documents research protocols, so readers can see how a study was designed and carried out.\n\nThese four work as a unit.\nA paper reports findings, and a reader who wants to evaluate those findings needs the data, the code and the protocol that produced them.\n\nOpen peer review extends the same transparency to evaluation.\nJournals publish the reviews alongside the paper, and sometimes the reviewers’ names, so readers can see how the work was assessed and what changed in response.\n\nOpen educational resources apply open licensing to teaching materials, including textbooks and course notes.\nThey also draw on the other five, since openly licensed papers and datasets make good teaching material.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#justifications-for-open-science",
+    "href": "2026/index.html#justifications-for-open-science",
+    "title": "Issues on Open Science",
+    "section": "Justifications for open science",
+    "text": "Justifications for open science\nEpistemic\n\nResults can be checked and reproduced\nErrors get caught after publication\nData can be combined and reanalysed\n\n\nPolitical and economic\n\nPublicly funded research should be publicly available\nFunders can assess outcomes and set priorities\nSubscription costs strain library budgets\n\n\n\nThere are two kinds of justification for open science.\n\nThe first is epistemic.\nWhen the data, code and protocols behind a paper are available, reviewers and other researchers in the field can rerun the analysis and test whether the reported results hold.\nErrors that would otherwise go unnoticed can be caught and corrected after publication.\nShared data can also be combined with other datasets or reanalysed with different methods, which extends their value well beyond the project that produced them.\n▶ CLICK\nThe second is political and economic.\nPublic money funds most research, so the public should be able to read the results.\nOpenness also gives funders a clearer view of what their grants produce, which informs how they assess public investment in research and where they direct future funding.\nAnd journal subscription costs have strained library budgets for decades, which is a big reason librarians were early advocates of open access.\n\nBoth kinds of justification concern research outputs, meaning the papers, datasets and code that can be released and counted.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#tri-agency-policies",
+    "href": "2026/index.html#tri-agency-policies",
+    "title": "Issues on Open Science",
+    "section": "Tri-Agency policies",
+    "text": "Tri-Agency policies\n\n\n\n\n\n\n\nPolicy\nRequirement\n\n\n\n\nOpen access\nSince 2015, articles free within 12 months\n\n\n\nFor grants awarded from 2027, articles free on publication, in a Canadian repository\n\n\nResearch data management\nSince 2022, data management plans for some funding calls\n\n\n\nSince 2023, institutional data management strategies\n\n\n\nExpected in 2027, deposit of the data behind publications\n\n\n\n\nIn Canada, the three federal granting agencies, CIHR, NSERC and SSHRC, set these requirements together as the Tri-Agency.\n\nOn open access, the 2015 policy asked that articles be freely available within twelve months of publication.\nA revised policy removes that delay.\nFor grants awarded from January 2027, articles have to be available in a Canadian repository or on a Canadian platform on the day they’re published.\n\nOn data, the Research Data Management Policy has come in stages.\nSome funding calls have required a data management plan since 2022, and universities had to post institutional data management strategies in 2023.\nThe last stage is a deposit requirement.\nResearchers would deposit the data, code and documentation behind their publications, and keep them for ten years.\nIt’s expected to start in 2027, but the agencies haven’t published the final text yet.\n\nEach stage adds tasks for researchers.\nA data management plan has to be written before any data exist, and a deposit has to be documented well enough for someone outside the project to use it.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#infrastructure-behind-the-tri-agency-policies",
+    "href": "2026/index.html#infrastructure-behind-the-tri-agency-policies",
+    "title": "Issues on Open Science",
+    "section": "Infrastructure behind the Tri-Agency policies",
+    "text": "Infrastructure behind the Tri-Agency policies\n\n\n\n\n\n\n\n\nRequirement\nService\nRun by\n\n\n\n\nPlan\nDMP Assistant\nDigital Research Alliance of Canada\n\n\nDeposit\nBorealis\nCanadian university libraries\n\n\nDiscover\nFederated Research Data Repository\nDigital Research Alliance of Canada\n\n\n\n\nResearchers meet these policies through a set of national services, and each one supports a different requirement.\n\nThe Digital Research Alliance of Canada is a federally funded organization that coordinates national computing, storage and research data management.\nIt runs the DMP Assistant, the tool most Canadian researchers use to write the data management plans the Tri-Agency now asks for.\n\nWhen a project has data to deposit, Borealis is a likely destination.\nIt’s a shared repository built on Dataverse, an open source platform for sharing and citing research data, and university libraries across the country run it together.\nMcGill has its own collection there.\n\nDeposited data still have to be found.\nThe Alliance also runs the Federated Research Data Repository, which gathers metadata from Borealis and other Canadian repositories so that people can search them in one place.\n\nAll of these services depend on continued public funding and on the staff who maintain them.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#curation-in-open-science",
+    "href": "2026/index.html#curation-in-open-science",
+    "title": "Issues on Open Science",
+    "section": "2 Curation in open science",
+    "text": "2 Curation in open science\n\nEvery open output, whether a paper, a dataset or a piece of code, has to be described, deposited and kept usable before anyone else can rely on it.\nThat work is digital curation.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#a-paper-and-its-linked-records",
+    "href": "2026/index.html#a-paper-and-its-linked-records",
+    "title": "Issues on Open Science",
+    "section": "A paper and its linked records",
+    "text": "A paper and its linked records\n\n  \n    AuthorsAn ORCID iD identifies each person\n    InstitutionsA ROR ID identifies each affiliation\n    Contributions14 roles say what each author did\n    FundingA ROR ID names the funder, a grant DOI the grant\n    ReviewsOpen reviews link to the paper\n  \n  \n    \n    The paper\n    Its DOI is registered with Crossref\n    Its open access licence is recorded with its DOI\n  \n  \n    PlanA registration records the plan before data collection\n    DataA DataCite DOI points to the deposited dataset\n    RepositoriesA digital repository stores each deposit\n    CodeA repository holds the code\n    Reproducible workNotebooks let others rerun the analysis\n  \n\n\n  \n  OpenAlex indexes these records and the links between them in one free, open catalogue. Each link exists only if someone supplies it.\n\n\nThis is what open science looks like around a single paper today.\n\nThe paper sits in the middle.\nIt has a DOI registered through Crossref, and its licence is recorded with that DOI.\n\nOn the left are the people and organizations behind it.\nEach author has an ORCID identifier, and each institution has a ROR identifier.\nThe CRediT taxonomy describes what each author contributed.\nFunders and grants carry identifiers too, and open reviews from services like eLife, PubPeer and Peer Community In link back to the paper.\n\nOn the right is what the paper rests on.\nA registered plan records what the researchers meant to do before they collected any data.\nThe dataset has its own DOI from DataCite and sits in a repository like Zenodo, OSF or Borealis.\nThe code lives on GitHub or a similar platform, sometimes packaged as notebooks so that others can rerun the analysis.\n\nOpenAlex gathers all these records, and the links between them, into one open catalogue.\n\nEvery one of these links exists because someone created it, checked it and keeps it current.\nWhen an identifier is missing or wrong, the link breaks, and nobody downstream can follow it.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#decisions-behind-the-records",
+    "href": "2026/index.html#decisions-behind-the-records",
+    "title": "Issues on Open Science",
+    "section": "Decisions behind the records",
+    "text": "Decisions behind the records\n\n\n\nHow to describe the data\nWhat to record about their making\nHow to handle data before collection\nWhich licence to apply\n\n\n\nWhich repository to use\nWhat to keep, and for how long\nHow to report to the funder\nWhat happens after the grant ends\n\n\n\nPolicy assigns most of these decisions to researchers\n\n\nEvery record in that picture rests on decisions that someone has to make.\n\nSomeone decides how to describe the data so that people outside the project can find and interpret them, and what to record about how the data were made.\nSomeone decides how the project will handle data before it collects any, which licence to apply, and which repository to use.\nSomeone decides what to keep and for how long, how to show the funder the policy was met, and what happens to the data after the grant ends.\n▶ CLICK\nUnder the Tri-Agency policies, most of these decisions fall to researchers.\nArchivists, librarians and data curators train for this work in information studies programs like this one.\nMost researchers pick it up on the job, the same way they learn to teach or to manage a project, with little formal training and a lot of improvisation.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#who-curates-research-data",
+    "href": "2026/index.html#who-curates-research-data",
+    "title": "Issues on Open Science",
+    "section": "Who curates research data?",
+    "text": "Who curates research data?\n\n\nCurators\nResearchers and communities curate too\n\n\nResources\nProducers lack the time and staff to curate\n\n\nVisibility\nCraft work that mostly goes unrecorded\n\n\n\nDigital curation has its roots in archives and libraries, where trained professionals take custody of material and care for it over time.\nCostis Dallas, who supervised my doctorate, argues that this custodial view no longer covers what curation is.\nResearchers, communities and users also curate, wherever they work with digital material that keeps changing.\nOpen science policy turns that observation into an obligation, since researchers now have to prepare their own data for others.\n▶ CLICK\nThe question is whether they have what they need to do it.\nIxchel Faniel and Elizabeth Yakel compared data sharing in three disciplines, and they found that the people who produce data often lack the money, tools and staff to prepare it for sharing.\nIn disciplines where repository or museum staff help, producers carry less of the load.\nElsewhere, the work stays with whoever is left in the project.\n▶ CLICK\nEven professional curation is harder than it looks from outside.\nAndrea Thomer and her colleagues studied curators at ICPSR, a large social science data archive.\nThe curators relied on judgement and constant back and forth with depositors, and their work rarely followed the steps that lifecycle models describe.\nMuch of it never appeared in any record of who contributed to the data.\n\nSo open science policy has moved skilled and largely invisible work onto researchers, many of whom have neither the training nor the support to do it well.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#complicating-openness",
+    "href": "2026/index.html#complicating-openness",
+    "title": "Issues on Open Science",
+    "section": "3 Complicating openness",
+    "text": "3 Complicating openness\n\nOpen science policy measures openness at the moment of release, when a paper is published or a dataset is deposited.\nCuration is concerned with everything after that moment, for as long as anyone uses the data.\nThe difference shows up in how data carry context, in how access terms get set, in what reuse actually involves, and in who maintains the infrastructure.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#data-and-their-context",
+    "href": "2026/index.html#data-and-their-context",
+    "title": "Issues on Open Science",
+    "section": "Data and their context",
+    "text": "Data and their context\n\nData get their meaning from the people and practices that produced them\n\nMetadata record only part of that meaning\n\n\n\nData get their meaning from how they were made.\nThat includes who collected them, with what instruments, under what conditions and for what purpose.\n▶ CLICK\nMetadata are supposed to capture that context, and they do capture some of it.\nThe rest stays with the people who did the work.\nIt’s tacit knowledge, and they rarely think to write it down because to them it’s obvious.\n\nPaul Edwards and his colleagues call this science friction.\nIn their study of interdisciplinary environmental research, metadata were never finished.\nMaking sense of shared data took ongoing conversation between the people who made the data and the people trying to use them.\n\nIrene Pasquetto, Christine Borgman and Morgan Wofford found a similar pattern among scientists who reuse data.\nFor simple comparisons, reusers could get by with what had been deposited.\nWhen they wanted to integrate someone else’s data into their own analysis, they generally preferred to work with the people who created them.\n\nSo documenting data is an act of interpretation.\nWhoever does it, a curator or a researcher acting as one, has to anticipate what future users will need to know without knowing who those users are.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#how-open-should-these-data-be",
+    "href": "2026/index.html#how-open-should-these-data-be",
+    "title": "Issues on Open Science",
+    "section": "How open should these data be?",
+    "text": "How open should these data be?\n\n\n\n\nData\nOpen\nControlled access\nClosed\n\n\n\n\nAir quality readings from city sensors\n\n\n\n\n\nAnonymized responses to a national survey\n\n\n\n\n\nLocations of archaeological sites\n\n\n\n\n\nGenomic data from an Indigenous community\n\n\n\n\n\n\n\n\nControlled access means approved users sign an agreement before receiving the data\nClosed means the data stay with the project team\n\n\nHere are four kinds of data.\nFor each one, decide whether it should be open, shared under controlled access, or kept closed.\nControlled access means approved users can get the data after they sign an agreement.\nClosed means the data stay with the project team.\n⏸ Run the vote, one row at a time\n\nAir quality readings tend to go open with little disagreement.\nNobody is identifiable in them, and wide reuse is the point of collecting them.\nSurvey responses split more, because even anonymized answers can identify people once someone links them with other datasets.\nArchaeological site locations usually end up controlled or closed, since publishing them invites looting.\n\nGenomic data from an Indigenous community raise a different question.\nHere the question is who has the authority to decide.\n\nThe answers changed with the data, and with the people the data describe.\n\n\nRunning the vote. Allow about five minutes.\n\nRead the two definitions at the bottom of the slide before starting.\nGo row by row. Ask for hands for open, then controlled access, then closed, one vote per person. Say the leading answer aloud.\nOn the row with the most even split, ask one person from each side to explain, about thirty seconds each.\nExpect air quality readings to go open, survey responses to split between open and controlled access, and site locations to go controlled or closed. If site locations go open, raise looting. If survey responses go open, raise reidentification through linked datasets.\nFor the genomic data, ask who should get to decide. Take one or two answers and move on, since the next slide gives the CARE principles’ answer.\n\n\n⏭ NEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/index.html#as-open-as-possible-as-closed-as-necessary",
+    "href": "2026/index.html#as-open-as-possible-as-closed-as-necessary",
+    "title": "Issues on Open Science",
+    "section": "As open as possible, as closed as necessary",
+    "text": "As open as possible, as closed as necessary\n\n\nFAIR\nPrinciples for the data\nFindable\nAccessible\nInteroperable\nReusable\n\nCARE\nPrinciples for the people the data describe\nCollective benefit\nAuthority to control\nResponsibility\nEthics\n\n\nThe European Commission put the principle this way: as open as possible, as closed as necessary.\nOpenness is the default, and restriction is legitimate when there’s a reason for it.\nSomebody has to weigh those reasons for each dataset, and then write the outcome into the record so the next person can follow it.\n\nThe FAIR principles are the best-known guide for that work.\nThey ask that data be findable, accessible, interoperable and reusable.\nThey’re about the data, and they say nothing about whose data these are.\n▶ CLICK\nThe CARE principles, from the Global Indigenous Data Alliance, address that gap.\nCARE stands for collective benefit, authority to control, responsibility and ethics.\nThe principles assert the rights of Indigenous peoples over data about them, their lands and their knowledge, and they’re meant to sit alongside FAIR.\n\nControlled access sits between open and closed, and it takes a lot of work.\nAt the CITF Databank, researchers apply for access, a committee reviews each request, and approved users sign an agreement before they receive anything.\nNone of that shows up when we simply say the data are available.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#reusing-data",
+    "href": "2026/index.html#reusing-data",
+    "title": "Issues on Open Science",
+    "section": "Reusing data",
+    "text": "Reusing data\n\nAccess means finding, trusting and reading the data\n\n\n1,792 articles promised data on request\n254 authors responded to the request\n122 authors sent the data\n\n\nPolicies treat availability as the goal.\nOnce data are deposited, they count as open.\nBut reusers still have to find the data, decide whether to trust them and work out how to read them.\n\nIxchel Faniel and Elizabeth Yakel interviewed reusers in archaeology, quantitative social science and zoology.\nReusers drew on many sources at once.\nThey read the original publications, repository records, documentation and codebooks.\nThey talked to the people who produced the data, and sometimes they went back to the physical specimens or artifacts.\nAbove all, they judged data by how complete the documentation was.\n▶ CLICK\nThe weakest form of availability is the promise to share on request.\nOne team found nearly eighteen hundred articles whose authors said they would share their data on request, and then actually asked.\nFewer than one in seven authors responded, and 122 sent the data.\nThat’s under seven percent.\n\nEach of these depends on curation, from describing data so that people can find them to documenting how they were made so that people can trust them.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#maintaining-repositories",
+    "href": "2026/index.html#maintaining-repositories",
+    "title": "Issues on Open Science",
+    "section": "Maintaining repositories",
+    "text": "Maintaining repositories\n\n\n\n\n\n\n\nPrinciple\nA repository shows that it\n\n\n\n\nTransparency\ndescribes its services and holdings openly\n\n\nResponsibility\nprotects the integrity of its holdings\n\n\nUser focus\nmeets the norms of the communities it serves\n\n\nSustainability\ncan keep operating over the long term\n\n\nTechnology\nruns secure and reliable infrastructure\n\n\n\n\nWho pays after the grant ends?\n\n\nA deposit is a promise about the future.\nSomebody has to keep the files readable, the links working and the servers running for years after the project ends.\nThe proposed Tri-Agency deposit requirement would have researchers retain their data, code and documentation for ten years.\n\nThe TRUST principles describe what a repository should be able to demonstrate before anyone hands it that responsibility.\nSustainability matters most here.\nA repository has to show that it can keep operating and preserving its holdings over the long term.\nCoreTrustSeal certifies repositories against requirements along these lines.\n▶ CLICK\nGrants last a few years.\nStorage, staff and format migrations cost money every year.\nSo who pays for years three through ten?\nOften nobody planned for it, and the cost lands on a library or a repository that was never part of the original budget.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#release-and-upkeep",
+    "href": "2026/index.html#release-and-upkeep",
+    "title": "Issues on Open Science",
+    "section": "Release and upkeep",
+    "text": "Release and upkeep\n\nOpen science asks for release\nCuration asks who looks after the data, for whom, and for how long\n\n\nContext, access terms, reuse and maintenance all show the same pattern.\nOpen science asks for release.\nCuration asks who looks after the data, for whom and for how long.\n\nThose questions have no single answer, and the people answering them day to day barely appear in open science policy.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#methodological-pluralism",
+    "href": "2026/index.html#methodological-pluralism",
+    "title": "Issues on Open Science",
+    "section": "4 Methodological pluralism",
+    "text": "4 Methodological pluralism\n\nSo far I’ve talked about data as if all research produced the same kind.\nIt doesn’t, and that creates problems for a single model of open science.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#open-science-practices-and-confirmatory-research",
+    "href": "2026/index.html#open-science-practices-and-confirmatory-research",
+    "title": "Issues on Open Science",
+    "section": "Open science practices and confirmatory research",
+    "text": "Open science practices and confirmatory research\n\nRegistering a hypothesis before collecting data\nRepeating a study to check its results\nSharing data apart from the people who made them\n\n\nStandardized policy can entrench some kinds of research, and the inequities that come with them\n\n\nThe standard open science practices grew out of one kind of research, the confirmatory experiment, and especially out of the replication debates in psychology and biomedicine.\nRegistering a study in advance means fixing the hypothesis and the analysis plan before collecting any data.\nReplication means that someone else repeats the study to see whether the results hold.\nData sharing assumes that data can be detached from the people who made them and still make sense.\n\nThese practices suit some research well and other research badly.\nThink of an ethnographer, an archaeologist excavating a site that the excavation itself destroys, or a field biologist recording a season that will never recur.\nNone of them can fix a hypothesis in advance in any meaningful way, and none of their studies can be repeated.\n▶ CLICK\nSabina Leonelli argues that standardized, top-down open science policy ignores this diversity.\nPolicies designed around one way of doing research can entrench that way of doing it, along with the inequities that come with it, and push other kinds of research to the margins.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#three-kinds-of-reproducibility",
+    "href": "2026/index.html#three-kinds-of-reproducibility",
+    "title": "Issues on Open Science",
+    "section": "Three kinds of reproducibility",
+    "text": "Three kinds of reproducibility\n\n\nMethods\nSame procedures on the same data\n\n\nResults\nA new study confirms the findings\n\n\nInferential\nSimilar conclusions from a reanalysis\n\n\n\nWhich kind fits the research you know best?\n\n\nEven research that aims to be reproducible means different things by the word.\nSteven Goodman, Daniele Fanelli and John Ioannidis distinguish three kinds.\n\nMethods reproducibility means repeating the same procedures on the same data and getting the same result.\n▶ CLICK\nResults reproducibility means running a new study and getting results that corroborate the original.\n▶ CLICK\nInferential reproducibility means drawing conclusions of similar strength from a replication or a reanalysis, and that comes down to expert judgement.\n\nOpen data and open code serve the first kind most directly.\nThey do much less for the other two, which depend on new studies and on judgement.\n▶ CLICK\nWhich of these makes sense for the kind of research you know best?\nAnd is there one that doesn’t apply at all?\n⏸ Give thirty seconds, then take two or three answers\n\n\nRunning the question. Allow about two minutes.\n\nOnce the question appears, give the room thirty seconds to think or to talk with a neighbour.\nAsk two or three people to name a field or a kind of research they know, and say which kind of reproducibility fits it.\nExpect lab sciences and quantitative social science to pick methods or results reproducibility. Expect qualitative, historical and archival work to say that none of the three fits well. That answer is Leonelli’s point, so say so.\nIf nobody answers, offer an oral history archive. Nobody can rerun an interview, and a second interviewer would hear a different story. Ask which kind of reproducibility could apply.\n\n\n⏭ NEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/index.html#tensions-with-ai",
+    "href": "2026/index.html#tensions-with-ai",
+    "title": "Issues on Open Science",
+    "section": "5 Tensions with AI",
+    "text": "5 Tensions with AI\n\nAI puts new pressure on the access terms and the maintenance problems we just looked at, and it changes who might do curation work.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#open-licences-and-ai-training",
+    "href": "2026/index.html#open-licences-and-ai-training",
+    "title": "Issues on Open Science",
+    "section": "Open licences and AI training",
+    "text": "Open licences and AI training\n\nOpen licences allow broad reuse, and they weren’t written with model training in mind\n\nA licence can’t tell a student from a company building a model\n\n\n\nOpen science wants research outputs to be reusable by anyone, for any purpose.\nThe licences it relies on, especially Creative Commons Attribution, were designed for exactly that.\n▶ CLICK\nThey were written before large language models, and they give authors no practical way to say yes to a student and no to a company training a commercial model.\n\nCreative Commons started a project in 2025 called CC signals, which would let people state their preferences about AI reuse in a form both people and machines can read.\nThose signals only work if AI developers choose to respect them.\n\nFor curators, this reopens the question of access terms.\nWhen the reuser is a crawler feeding a training pipeline, it’s no longer obvious what open access is meant to accomplish.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#ai-crawlers-and-open-repositories",
+    "href": "2026/index.html#ai-crawlers-and-open-repositories",
+    "title": "Issues on Open Science",
+    "section": "AI crawlers and open repositories",
+    "text": "AI crawlers and open repositories\n\nIn 2025, the Confederation of Open Access Repositories surveyed 66 repositories\n\nOver 90% reported aggressive bots, usually more than once a week\n\n\nBlocking bots also blocks people\n\n\n\nAI also strains the infrastructure that open science depends on.\nIn 2025 the Confederation of Open Access Repositories, an international association of repositories, surveyed sixty-six of them around the world.\n▶ CLICK\nMore than ninety percent said aggressive bots were hitting their services, usually more than once a week.\nRespondents described slowdowns, outages and crashes that needed manual restarts, and they said the traffic had grown sharply over the previous two years.\n▶ CLICK\nRepositories have responded by blocking or throttling bots.\nSome of these measures work, but they also block legitimate users and the benign services, like search indexers, that make content findable in the first place.\n\nThis is the maintenance problem from earlier, made worse.\nRepositories built to give people access now spend staff time and money keeping machines out.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#who-should-curate",
+    "href": "2026/index.html#who-should-curate",
+    "title": "Issues on Open Science",
+    "section": "Who should curate?",
+    "text": "Who should curate?\n\n\n\n\nJob\nResearcher\nCurator\nModel\nNo one\n\n\n\n\nDescribing the data\n\n\n\n\n\n\nSetting the terms of access\n\n\n\n\n\n\nChecking a deposit before release\n\n\n\n\n\n\nKeeping the files usable in ten years\n\n\n\n\n\n\n\n\n\nAI tools are now being pitched as a fix for the curation burden.\nThey draft metadata, suggest subject terms and summarize datasets.\n\nSo let’s sort some jobs.\nFor each one, tell me who should do it, whether that’s the researcher, a curator, a model, or no one at all.\nOne vote per job.\n⏸ Run the sort, then come back for the debrief\n\nA model can draft a description, but it doesn’t know how the data were made, and nobody can hold it accountable for what it writes.\nSomeone still has to check the output and sign off on it.\nSetting access terms depends on consent and on the people the data describe, and a model has no way of knowing either.\nChecking a deposit is exactly the kind of judgement curators are trained for.\nAnd keeping files usable for ten years tends to end up with no one, unless an institution takes it on.\n\n\nRunning the sort. Allow about five minutes.\n\nRead the first job aloud. Ask for hands for researcher, then curator, then model, then no one, one vote per person. Say the leading answer aloud.\nRepeat for the other three jobs at a brisk pace, about forty-five seconds each.\nGo back to the job with the most even split and ask one person from each side to explain.\nExpect describing the data to split between researcher and model, and keeping files usable to land on curator. If it does, ask which curator, at which institution, and paid by whom.\nIf the room goes quiet, ask who has written a metadata record and how long it took.\nFinish with the debrief paragraph above.\n\n\n⏭ NEXT SLIDE once the activity wraps up"
+  },
+  {
+    "objectID": "2026/index.html#open-science-needs-curation",
+    "href": "2026/index.html#open-science-needs-curation",
+    "title": "Issues on Open Science",
+    "section": "Open science needs curation",
+    "text": "Open science needs curation\n\nOpen science asks for release\nCuration asks who looks after the data, for whom, and for how long\nResearchers now do information work they were rarely trained or paid for\n\n\nOpen science has good motivations, and Canada is putting serious policy behind it.\nBut most of the conversation about open science is about releasing things.\n\nCuration asks what happens next.\nSomeone has to keep data meaningful and available, for particular people, over a long stretch of time.\nRight now a lot of that work falls to researchers who were never trained for it and are rarely paid for it, supported by curators and repositories whose own funding is uncertain.\n\nLook back at the words you gave me at the start.\nI suspect most of them were about access, and very few were about upkeep.\nUpkeep is the part of open science your field knows best, and it’s where people with your training are most needed.\n⏭ NEXT SLIDE"
+  },
+  {
+    "objectID": "2026/index.html#discussion",
+    "href": "2026/index.html#discussion",
+    "title": "Issues on Open Science",
+    "section": "Discussion",
+    "text": "Discussion\n\n\nWho should pay for curation after the grant ends?\nWhat should researchers learn before they deposit data?\nShould open data be open to AI developers?\n\n\n\n\nRunning the discussion. Leave this slide up through questions. Take questions from the room first. If things go quiet, read one card aloud and let someone answer, or ask the room to pick a card. The notes below give background for each.\n\nGrants end, and the proposed Tri-Agency requirement asks for ten years of retention. The options include research budgets, institutional libraries, national infrastructure like the Alliance and Borealis, and disciplinary repositories. Each one shifts the work onto different people, and each one can disappear when its own funding changes.\nResearchers now write data management plans, choose licences and pick repositories, often with no training. Libraries and data centres hold most of the relevant expertise. It’s worth asking what a first-year graduate student actually needs to know, and who is in a position to teach it.\nOpen licences permit broad reuse, and many researchers are uneasy about their work training commercial models. Restricting access would cut against open science mandates, and leaving it open feeds crawlers that already strain repositories. Preference signals depend on AI developers respecting them.\n\n\n⏭ NEXT SLIDE to the reading list once questions end"
+  },
+  {
+    "objectID": "2026/index.html#reading-list",
+    "href": "2026/index.html#reading-list",
+    "title": "Issues on Open Science",
+    "section": "Reading list",
+    "text": "Reading list\n\nBertram, M. G., J. Sundin, D. G. Roche, A. Sánchez-Tójar, E. S. J. Thoré, and T. Brodin. 2023. “Open Science.” Current Biology 33 (15): R792–97. https://doi.org/10.1016/j.cub.2023.05.036\nCarroll, S. R., I. Garba, O. L. Figueroa-Rodríguez, et al. 2020. “The CARE Principles for Indigenous Data Governance.” Data Science Journal 19 (1): 43. https://doi.org/10.5334/dsj-2020-043\nCOAR. 2025. “Open Repositories Are Being Profoundly Impacted by AI Bots and Other Crawlers: Results of a COAR Survey.” coar-repositories.org\nDallas, C. 2016. “Digital Curation beyond the ‘Wild Frontier’: A Pragmatic Approach.” Archival Science 16 (4): 421–57. https://doi.org/10.1007/s10502-015-9252-6\nEdwards, P. N., M. S. Mayernik, A. L. Batcheller, G. C. Bowker, and C. L. Borgman. 2011. “Science Friction: Data, Metadata, and Collaboration.” Social Studies of Science 41 (5): 667–90. https://doi.org/10.1177/0306312711413314\nFaniel, I. M., and E. Yakel. 2017. “Practices Do Not Make Perfect: Disciplinary Data Sharing and Reuse Practices and Their Implications for Repository Data Curation.” In Curating Research Data, Volume One, edited by L. R. Johnston, 103–26. Chicago: Association of College and Research Libraries.\nFecher, B., and S. Friesike. 2014. “Open Science: One Term, Five Schools of Thought.” In Opening Science, edited by S. Bartling and S. Friesike, 17–47. Springer. https://doi.org/10.1007/978-3-319-00026-8_2\nGabelica, M., R. Bojčić, and L. Puljak. 2022. “Many Researchers Were Not Compliant with Their Published Data Sharing Statement: A Mixed-Methods Study.” Journal of Clinical Epidemiology 150: 33–41.\nGoodman, S. N., D. Fanelli, and J. P. A. Ioannidis. 2016. “What Does Research Reproducibility Mean?” Science Translational Medicine 8 (341): 341ps12. https://doi.org/10.1126/scitranslmed.aaf5027\nLeonelli, S. 2022. “Open Science and Epistemic Diversity: Friends or Foes?” Philosophy of Science 89 (5): 991–1001.\nLeonelli, S. 2023. Philosophy of Open Science. Cambridge University Press.\nLin, D., J. Crabtree, I. Dillo, et al. 2020. “The TRUST Principles for Digital Repositories.” Scientific Data 7: 144. https://doi.org/10.1038/s41597-020-0486-7\nPasquetto, I. V., C. L. Borgman, and M. F. Wofford. 2019. “Uses and Reuses of Scientific Data: The Data Creators’ Advantage.” Harvard Data Science Review 1 (2). https://doi.org/10.1162/99608f92.fc14bf2d\nThomer, A. K., D. Akmon, J. J. York, et al. 2022. “The Craft and Coordination of Data Curation: Complicating Workflow Views of Data Science.” Proceedings of the ACM on Human-Computer Interaction 6 (CSCW2). https://doi.org/10.1145/3555139\nUNESCO. 2021. UNESCO Recommendation on Open Science. https://doi.org/10.54677/MNMH8546\nWilkinson, M. D., M. Dumontier, I. J. Aalbersberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” Scientific Data 3: 160018. https://doi.org/10.1038/sdata.2016.18\n\n\nThese are the readings behind the talk.\nThe slides and notes are online at the address on the title slide.\n⏭ NEXT SLIDE"
   }
 ]

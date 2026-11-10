@@ -1,0 +1,18 @@
+h2 { margin-top: 2.6rem; padding-top: 1rem; border-top: 1px solid #dcd7cc; }
+h2 .num { color: #9b3a2f; margin-right: 0.4em; }
+h2.divider { font-size: 1.6rem; color: #9b3a2f; }
+.cue { margin: 0.3rem 0 1rem 0; }
+.cue p { display: inline-block; margin: 0; padding: 0.15em 0.6em; border-radius: 4px; font-size: 0.85em; letter-spacing: 0.04em; }
+.cue.click p { background: #efeadf; color: #9b3a2f; }
+.cue.next p { background: #9b3a2f; color: #fff; }
+.cue.pause p { background: #e4eedd; color: #1d1d1b; }
+hr { margin: 1.2rem 0; border-top: 2px dashed #dcd7cc; opacity: 1; }
+blockquote { border-left: 3px solid #9b3a2f; background: #f6f2ea; padding: 0.8rem 1rem; font-size: 0.92em; }
+
+@media print {
+  #quarto-header, .nav-footer, #quarto-margin-sidebar, #TOC, .quarto-title-meta, .notes-link { display: none !important; }
+  body { font-size: 11pt; }
+  h2 { break-after: avoid; margin-top: 1.4rem; }
+  .cue, blockquote, li { break-inside: avoid; }
+  .cue p, blockquote { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
