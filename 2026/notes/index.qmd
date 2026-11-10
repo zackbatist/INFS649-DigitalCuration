@@ -1,6 +1,6 @@
 ---
 title: "Issues on Open Science"
-subtitle: "Speaker notes · INFS 649 Digital Curation · November 10, 2026"
+subtitle: "Speaker notes · INFS 649 Digital Curation · November 17, 2026"
 author: "Zack Batist"
 lang: en-CA
 toc: true

@@ -3,7 +3,7 @@ title: "Issues on Open Science"
 subtitle: "INFS 649 Digital Curation"
 author: "Zack Batist"
 institute: "[zackbatist.info/INFS649-DigitalCuration/2026](https://zackbatist.info/INFS649-DigitalCuration/2026/)"
-date: "November 10, 2026"
+date: "November 17, 2026"
 date-format: "MMMM D, YYYY"
 lang: en-CA
 format:
