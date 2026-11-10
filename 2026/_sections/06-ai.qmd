@@ -1,0 +1,133 @@
+## [5]{.num} Tensions with AI {.divider}
+
+::: {.notes}
+AI puts new pressure on the access terms and the maintenance problems we just looked at, and it changes who might do curation work.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Open licences and AI training
+
+::: {.lines}
+Open licences allow broad reuse, and they weren't written with model training in mind
+
+::: {.fragment}
+A licence can't tell a student from a company building a model
+:::
+:::
+
+::: {.notes}
+Open science wants research outputs to be reusable by anyone, for any purpose.
+
+The licences it relies on, especially Creative Commons Attribution, were designed for exactly that.
+
+**▶ CLICK**
+
+They were written before large language models, and they give authors no practical way to say yes to a student and no to a company training a commercial model.
+
+* * *
+
+Creative Commons started a project in 2025 called CC signals, which would let people state their preferences about AI reuse in a form both people and machines can read.
+
+Those signals only work if AI developers choose to respect them.
+
+* * *
+
+For curators, this reopens the question of access terms.
+
+When the reuser is a crawler feeding a training pipeline, it's no longer obvious what open access is meant to accomplish.
+
+**⏭ NEXT SLIDE**
+:::
+
+## AI crawlers and open repositories
+
+::: {.lines}
+In 2025, the Confederation of Open Access Repositories surveyed 66 repositories
+
+::: {.fragment}
+Over 90% reported aggressive bots, usually more than once a week
+:::
+
+::: {.fragment}
+Blocking bots also blocks people
+:::
+:::
+
+::: {.notes}
+AI also strains the infrastructure that open science depends on.
+
+In 2025 the Confederation of Open Access Repositories, an international association of repositories, surveyed sixty-six of them around the world.
+
+**▶ CLICK**
+
+More than ninety percent said aggressive bots were hitting their services, usually more than once a week.
+
+Respondents described slowdowns, outages and crashes that needed manual restarts, and they said the traffic had grown sharply over the previous two years.
+
+**▶ CLICK**
+
+Repositories have responded by blocking or throttling bots.
+
+Some of these measures work, but they also block legitimate users and the benign services, like search indexers, that make content findable in the first place.
+
+* * *
+
+This is the maintenance problem from earlier, made worse.
+
+Repositories built to give people access now spend staff time and money keeping machines out.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Who should curate?
+
+::: {.sort}
+| Job | Researcher | Curator | Model | No one |
+|------------------------------------|---|---|---|---|
+| Describing the data | | | | |
+| Setting the terms of access | | | | |
+| Checking a deposit before release | | | | |
+| Keeping the files usable in ten years | | | | |
+:::
+
+::: {.notes}
+AI tools are now being pitched as a fix for the curation burden.
+
+They draft metadata, suggest subject terms and summarize datasets.
+
+* * *
+
+So let's sort some jobs.
+
+For each one, tell me who should do it, whether that's the researcher, a curator, a model, or no one at all.
+
+One vote per job.
+
+*⏸ Run the sort, then come back for the debrief*
+
+* * *
+
+A model can draft a description, but it doesn't know how the data were made, and nobody can hold it accountable for what it writes.
+
+Someone still has to check the output and sign off on it.
+
+Setting access terms depends on consent and on the people the data describe, and a model has no way of knowing either.
+
+Checking a deposit is exactly the kind of judgement curators are trained for.
+
+And keeping files usable for ten years tends to end up with no one, unless an institution takes it on.
+
+* * *
+
+> **Running the sort.** Allow about five minutes.
+>
+> 1. Read the first job aloud. Ask for hands for researcher, then curator, then model, then no one, one vote per person. Say the leading answer aloud.
+> 2. Repeat for the other three jobs at a brisk pace, about forty-five seconds each.
+> 3. Go back to the job with the most even split and ask one person from each side to explain.
+> 4. Expect describing the data to split between researcher and model, and keeping files usable to land on curator. If it does, ask which curator, at which institution, and paid by whom.
+> 5. If the room goes quiet, ask who has written a metadata record and how long it took.
+> 6. Finish with the debrief paragraph above.
+
+**⏭ NEXT SLIDE** once the activity wraps up
+:::

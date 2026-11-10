@@ -1,0 +1,213 @@
+## [1]{.num} Open science as a movement {.divider}
+
+::: {.notes}
+First, what open science is, and how it reaches researchers here in Canada.
+
+**⏭ NEXT SLIDE**
+:::
+
+## UNESCO's definition
+
+> Open science is a set of principles and practices that aim to make scientific research from all fields accessible to everyone for the benefits of scientists and society as a whole.
+>
+> Open science is about making sure not only that scientific knowledge is accessible but also that the production of that knowledge itself is inclusive, equitable and sustainable.
+
+::: {.notes}
+UNESCO adopted a Recommendation on Open Science in 2021, and its definition is the one people quote most often.
+
+The definition makes two commitments.
+
+* * *
+
+The first commitment is to access.
+
+Research from every field should be available to everyone, for the benefit of scientists and of society.
+
+* * *
+
+The second commitment concerns how knowledge gets produced.
+
+UNESCO asks that research itself be inclusive, equitable and sustainable, which raises questions about who gets to take part in research and on what terms.
+
+* * *
+
+Most open science policy and infrastructure addresses the first commitment.
+
+The second gets far less attention.
+
+**⏭ NEXT SLIDE**
+:::
+
+## What open science includes
+
+::: {style="text-align: center;"}
+![](img/OS_principles.jpg){width="45%"}
+
+[Image from Bertram et al. 2023, *Current Biology*]{.credit}
+:::
+
+::: {.notes}
+Open science brings together several movements that grew up somewhat separately.
+
+This figure divides them into six strands.
+
+It's one classification among several.
+
+Benedikt Fecher and Sascha Friesike, for example, sort open science into five schools of thought according to what each one is trying to achieve, such as public participation in research or more efficient research.
+
+* * *
+
+* * *
+
+Open access makes publications free to read.
+
+Open data makes the data behind those publications available, and open source does the same for the software and code that process and analyse the data.
+
+Open methods documents research protocols, so readers can see how a study was designed and carried out.
+
+* * *
+
+These four work as a unit.
+
+A paper reports findings, and a reader who wants to evaluate those findings needs the data, the code and the protocol that produced them.
+
+* * *
+
+Open peer review extends the same transparency to evaluation.
+
+Journals publish the reviews alongside the paper, and sometimes the reviewers' names, so readers can see how the work was assessed and what changed in response.
+
+* * *
+
+Open educational resources apply open licensing to teaching materials, including textbooks and course notes.
+
+They also draw on the other five, since openly licensed papers and datasets make good teaching material.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Justifications for open science
+
+### Epistemic
+
+- Results can be checked and reproduced
+- Errors get caught after publication
+- Data can be combined and reanalysed
+
+::: {.fragment}
+### Political and economic
+
+- Publicly funded research should be publicly available
+- Funders can assess outcomes and set priorities
+- Subscription costs strain library budgets
+:::
+
+::: {.notes}
+There are two kinds of justification for open science.
+
+* * *
+
+The first is epistemic.
+
+When the data, code and protocols behind a paper are available, reviewers and other researchers in the field can rerun the analysis and test whether the reported results hold.
+
+Errors that would otherwise go unnoticed can be caught and corrected after publication.
+
+Shared data can also be combined with other datasets or reanalysed with different methods, which extends their value well beyond the project that produced them.
+
+**▶ CLICK**
+
+The second is political and economic.
+
+Public money funds most research, so the public should be able to read the results.
+
+Openness also gives funders a clearer view of what their grants produce, which informs how they assess public investment in research and where they direct future funding.
+
+And journal subscription costs have strained library budgets for decades, which is a big reason librarians were early advocates of open access.
+
+* * *
+
+Both kinds of justification concern research outputs, meaning the papers, datasets and code that can be released and counted.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Tri-Agency policies
+
+| Policy | Requirement |
+|----------------------|---------------------------------------------------|
+| Open access | Since 2015, articles free within 12 months |
+| | For grants awarded from 2027, articles free on publication, in a Canadian repository |
+| Research data management | Since 2022, data management plans for some funding calls |
+| | Since 2023, institutional data management strategies |
+| | Expected in 2027, deposit of the data behind publications |
+
+::: {.notes}
+In Canada, the three federal granting agencies, CIHR, NSERC and SSHRC, set these requirements together as the Tri-Agency.
+
+* * *
+
+On open access, the 2015 policy asked that articles be freely available within twelve months of publication.
+
+A revised policy removes that delay.
+
+For grants awarded from January 2027, articles have to be available in a Canadian repository or on a Canadian platform on the day they're published.
+
+* * *
+
+On data, the Research Data Management Policy has come in stages.
+
+Some funding calls have required a data management plan since 2022, and universities had to post institutional data management strategies in 2023.
+
+The last stage is a deposit requirement.
+
+Researchers would deposit the data, code and documentation behind their publications, and keep them for ten years.
+
+It's expected to start in 2027, but the agencies haven't published the final text yet.
+
+* * *
+
+Each stage adds tasks for researchers.
+
+A data management plan has to be written before any data exist, and a deposit has to be documented well enough for someone outside the project to use it.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Infrastructure behind the Tri-Agency policies
+
+| Requirement | Service | Run by |
+|----------------|------------------------------|------------------------------|
+| Plan | DMP Assistant | Digital Research Alliance of Canada |
+| Deposit | Borealis | Canadian university libraries |
+| Discover | Federated Research Data Repository | Digital Research Alliance of Canada |
+
+::: {.notes}
+Researchers meet these policies through a set of national services, and each one supports a different requirement.
+
+* * *
+
+The Digital Research Alliance of Canada is a federally funded organization that coordinates national computing, storage and research data management.
+
+It runs the DMP Assistant, the tool most Canadian researchers use to write the data management plans the Tri-Agency now asks for.
+
+* * *
+
+When a project has data to deposit, Borealis is a likely destination.
+
+It's a shared repository built on Dataverse, an open source platform for sharing and citing research data, and university libraries across the country run it together.
+
+McGill has its own collection there.
+
+* * *
+
+Deposited data still have to be found.
+
+The Alliance also runs the Federated Research Data Repository, which gathers metadata from Borealis and other Canadian repositories so that people can search them in one place.
+
+* * *
+
+All of these services depend on continued public funding and on the staff who maintain them.
+
+**⏭ NEXT SLIDE**
+:::

@@ -1,0 +1,181 @@
+## [2]{.num} Curation in open science {.divider}
+
+::: {.notes}
+Every open output, whether a paper, a dataset or a piece of code, has to be described, deposited and kept usable before anyone else can rely on it.
+
+That work is digital curation.
+
+**⏭ NEXT SLIDE**
+:::
+
+## A paper and its linked records
+
+```{=html}
+<div class="eco">
+  <div class="eco-col">
+    <div class="node left"><img class="logo" src="img/orcid.svg" alt="ORCID logo"><div><b>Authors</b><span>An ORCID iD identifies each person</span></div></div>
+    <div class="node left"><img class="logo" src="img/ror.svg" alt="ROR logo"><div><b>Institutions</b><span>A ROR ID identifies each affiliation</span></div></div>
+    <div class="node left"><img class="logo tile" src="img/credit.png" alt="CRediT logo"><div><b>Contributions</b><span>14 roles say what each author did</span></div></div>
+    <div class="node left"><div class="logos pair"><img src="img/ror.svg" alt="ROR logo"><img src="img/doi.svg" alt="DOI logo"></div><div><b>Funding</b><span>A ROR ID names the funder, a grant DOI the grant</span></div></div>
+    <div class="node left"><div class="logos tiles c2"><img src="img/elife.svg" alt="eLife logo"><img src="img/pubpeer.svg" alt="PubPeer logo"><img src="img/pci.jpg" alt="Peer Community In logo"></div><div><b>Reviews</b><span>Open reviews link to the paper</span></div></div>
+  </div>
+  <div class="hub">
+    <div class="hub-logos"><img class="logo" src="img/crossref.svg" alt="Crossref logo"><img class="logo" src="img/doi.svg" alt="DOI logo"></div>
+    <b>The paper</b>
+    <span>Its DOI is registered with Crossref</span>
+    <span>Its open access licence is recorded with its DOI</span>
+  </div>
+  <div class="eco-col">
+    <div class="node right"><img class="logo" src="img/preregistered.svg" alt="Preregistration icon"><div><b>Plan</b><span>A registration records the plan before data collection</span></div></div>
+    <div class="node right"><img class="logo" src="img/datacite.svg" alt="DataCite logo"><div><b>Data</b><span>A DataCite DOI points to the deposited dataset</span></div></div>
+    <div class="node right"><div class="logos tiles c2"><img src="img/zenodo.svg" alt="Zenodo logo"><img src="img/osf.svg" alt="OSF logo"><img src="img/borealis.jpg" alt="Borealis logo"><img src="img/knowledgecommons.png" alt="Knowledge Commons logo"></div><div><b>Repositories</b><span>A digital repository stores each deposit</span></div></div>
+    <div class="node right"><div class="logos"><img src="img/github.svg" alt="GitHub logo"><img src="img/gitlab.svg" alt="GitLab logo"><img src="img/codeberg.svg" alt="Codeberg logo"><img src="img/forgejo.svg" alt="Forgejo logo"></div><div><b>Code</b><span>A repository holds the code</span></div></div>
+    <div class="node right"><div class="logos row3"><img src="img/jupyter.svg" alt="Jupyter logo"><img src="img/quarto.svg" alt="Quarto logo"><img src="img/pandoc.svg" alt="Pandoc logo"></div><div><b>Reproducible work</b><span>Notebooks let others rerun the analysis</span></div></div>
+  </div>
+</div>
+<div class="eco-bar">
+  <img class="logo" src="img/openalex.png" alt="OpenAlex logo">
+  <span>OpenAlex indexes these records and the links between them in one free, open catalogue. Each link exists only if someone supplies it.</span>
+</div>
+```
+
+::: {.notes}
+This is what open science looks like around a single paper today.
+
+* * *
+
+The paper sits in the middle.
+
+It has a DOI registered through Crossref, and its licence is recorded with that DOI.
+
+* * *
+
+On the left are the people and organizations behind it.
+
+Each author has an ORCID identifier, and each institution has a ROR identifier.
+
+The CRediT taxonomy describes what each author contributed.
+
+Funders and grants carry identifiers too, and open reviews from services like eLife, PubPeer and Peer Community In link back to the paper.
+
+* * *
+
+On the right is what the paper rests on.
+
+A registered plan records what the researchers meant to do before they collected any data.
+
+The dataset has its own DOI from DataCite and sits in a repository like Zenodo, OSF or Borealis.
+
+The code lives on GitHub or a similar platform, sometimes packaged as notebooks so that others can rerun the analysis.
+
+* * *
+
+OpenAlex gathers all these records, and the links between them, into one open catalogue.
+
+* * *
+
+Every one of these links exists because someone created it, checked it and keeps it current.
+
+When an identifier is missing or wrong, the link breaks, and nobody downstream can follow it.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Decisions behind the records
+
+::: {.columns}
+::: {.column width="50%"}
+- How to describe the data
+- What to record about their making
+- How to handle data before collection
+- Which licence to apply
+:::
+::: {.column width="50%"}
+- Which repository to use
+- What to keep, and for how long
+- How to report to the funder
+- What happens after the grant ends
+:::
+:::
+
+::: {.prompt .fragment}
+Policy assigns most of these decisions to researchers
+:::
+
+::: {.notes}
+Every record in that picture rests on decisions that someone has to make.
+
+* * *
+
+Someone decides how to describe the data so that people outside the project can find and interpret them, and what to record about how the data were made.
+
+Someone decides how the project will handle data before it collects any, which licence to apply, and which repository to use.
+
+Someone decides what to keep and for how long, how to show the funder the policy was met, and what happens to the data after the grant ends.
+
+**▶ CLICK**
+
+Under the Tri-Agency policies, most of these decisions fall to researchers.
+
+Archivists, librarians and data curators train for this work in information studies programs like this one.
+
+Most researchers pick it up on the job, the same way they learn to teach or to manage a project, with little formal training and a lot of improvisation.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Who curates research data?
+
+::: {.boxes .tight .even}
+::: {.box}
+[Curators]{.boxlabel}
+
+Researchers and communities curate too
+:::
+::: {.box .fragment}
+[Resources]{.boxlabel}
+
+Producers lack the time and staff to curate
+:::
+::: {.box .fragment}
+[Visibility]{.boxlabel}
+
+Craft work that mostly goes unrecorded
+:::
+:::
+
+::: {.notes}
+Digital curation has its roots in archives and libraries, where trained professionals take custody of material and care for it over time.
+
+Costis Dallas, who supervised my doctorate, argues that this custodial view no longer covers what curation is.
+
+Researchers, communities and users also curate, wherever they work with digital material that keeps changing.
+
+Open science policy turns that observation into an obligation, since researchers now have to prepare their own data for others.
+
+**▶ CLICK**
+
+The question is whether they have what they need to do it.
+
+Ixchel Faniel and Elizabeth Yakel compared data sharing in three disciplines, and they found that the people who produce data often lack the money, tools and staff to prepare it for sharing.
+
+In disciplines where repository or museum staff help, producers carry less of the load.
+
+Elsewhere, the work stays with whoever is left in the project.
+
+**▶ CLICK**
+
+Even professional curation is harder than it looks from outside.
+
+Andrea Thomer and her colleagues studied curators at ICPSR, a large social science data archive.
+
+The curators relied on judgement and constant back and forth with depositors, and their work rarely followed the steps that lifecycle models describe.
+
+Much of it never appeared in any record of who contributed to the data.
+
+* * *
+
+So open science policy has moved skilled and largely invisible work onto researchers, many of whom have neither the training nor the support to do it well.
+
+**⏭ NEXT SLIDE**
+:::

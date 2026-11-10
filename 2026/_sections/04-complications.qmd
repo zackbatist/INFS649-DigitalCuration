@@ -1,0 +1,301 @@
+## [3]{.num} Complicating openness {.divider}
+
+::: {.notes}
+Open science policy measures openness at the moment of release, when a paper is published or a dataset is deposited.
+
+Curation is concerned with everything after that moment, for as long as anyone uses the data.
+
+The difference shows up in how data carry context, in how access terms get set, in what reuse actually involves, and in who maintains the infrastructure.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Data and their context
+
+::: {.lines}
+Data get their meaning from the people and practices that produced them
+
+::: {.fragment}
+Metadata record only part of that meaning
+:::
+:::
+
+::: {.notes}
+Data get their meaning from how they were made.
+
+That includes who collected them, with what instruments, under what conditions and for what purpose.
+
+**▶ CLICK**
+
+Metadata are supposed to capture that context, and they do capture some of it.
+
+The rest stays with the people who did the work.
+
+It's tacit knowledge, and they rarely think to write it down because to them it's obvious.
+
+* * *
+
+Paul Edwards and his colleagues call this science friction.
+
+In their study of interdisciplinary environmental research, metadata were never finished.
+
+Making sense of shared data took ongoing conversation between the people who made the data and the people trying to use them.
+
+* * *
+
+Irene Pasquetto, Christine Borgman and Morgan Wofford found a similar pattern among scientists who reuse data.
+
+For simple comparisons, reusers could get by with what had been deposited.
+
+When they wanted to integrate someone else's data into their own analysis, they generally preferred to work with the people who created them.
+
+* * *
+
+So documenting data is an act of interpretation.
+
+Whoever does it, a curator or a researcher acting as one, has to anticipate what future users will need to know without knowing who those users are.
+
+**⏭ NEXT SLIDE**
+:::
+
+## How open should these data be?
+
+::: {.sort}
+| Data | Open | Controlled access | Closed |
+|------------------------------------|---|---|---|
+| Air quality readings from city sensors | | | |
+| Anonymized responses to a national survey | | | |
+| Locations of archaeological sites | | | |
+| Genomic data from an Indigenous community | | | |
+:::
+
+::: {.defs}
+**Controlled access** means approved users sign an agreement before receiving the data
+
+**Closed** means the data stay with the project team
+:::
+
+::: {.notes}
+Here are four kinds of data.
+
+For each one, decide whether it should be open, shared under controlled access, or kept closed.
+
+Controlled access means approved users can get the data after they sign an agreement.
+
+Closed means the data stay with the project team.
+
+*⏸ Run the vote, one row at a time*
+
+* * *
+
+Air quality readings tend to go open with little disagreement.
+
+Nobody is identifiable in them, and wide reuse is the point of collecting them.
+
+Survey responses split more, because even anonymized answers can identify people once someone links them with other datasets.
+
+Archaeological site locations usually end up controlled or closed, since publishing them invites looting.
+
+* * *
+
+Genomic data from an Indigenous community raise a different question.
+
+Here the question is who has the authority to decide.
+
+* * *
+
+The answers changed with the data, and with the people the data describe.
+
+* * *
+
+> **Running the vote.** Allow about five minutes.
+>
+> 1. Read the two definitions at the bottom of the slide before starting.
+> 2. Go row by row. Ask for hands for open, then controlled access, then closed, one vote per person. Say the leading answer aloud.
+> 3. On the row with the most even split, ask one person from each side to explain, about thirty seconds each.
+> 4. Expect air quality readings to go open, survey responses to split between open and controlled access, and site locations to go controlled or closed. If site locations go open, raise looting. If survey responses go open, raise reidentification through linked datasets.
+> 5. For the genomic data, ask who should get to decide. Take one or two answers and move on, since the next slide gives the CARE principles' answer.
+
+**⏭ NEXT SLIDE** once the activity wraps up
+:::
+
+## As open as possible, as closed as necessary
+
+::: {.columns .acro}
+::: {.column width="50%"}
+### FAIR
+
+[Principles for the data]{.about}
+
+[F]{.ltr}indable
+
+[A]{.ltr}ccessible
+
+[I]{.ltr}nteroperable
+
+[R]{.ltr}eusable
+:::
+::: {.column .fragment width="50%"}
+### CARE
+
+[Principles for the people the data describe]{.about}
+
+[C]{.ltr}ollective benefit
+
+[A]{.ltr}uthority to control
+
+[R]{.ltr}esponsibility
+
+[E]{.ltr}thics
+:::
+:::
+
+::: {.notes}
+The European Commission put the principle this way: as open as possible, as closed as necessary.
+
+Openness is the default, and restriction is legitimate when there's a reason for it.
+
+Somebody has to weigh those reasons for each dataset, and then write the outcome into the record so the next person can follow it.
+
+* * *
+
+The FAIR principles are the best-known guide for that work.
+
+They ask that data be findable, accessible, interoperable and reusable.
+
+They're about the data, and they say nothing about whose data these are.
+
+**▶ CLICK**
+
+The CARE principles, from the Global Indigenous Data Alliance, address that gap.
+
+CARE stands for collective benefit, authority to control, responsibility and ethics.
+
+The principles assert the rights of Indigenous peoples over data about them, their lands and their knowledge, and they're meant to sit alongside FAIR.
+
+* * *
+
+Controlled access sits between open and closed, and it takes a lot of work.
+
+At the CITF Databank, researchers apply for access, a committee reviews each request, and approved users sign an agreement before they receive anything.
+
+None of that shows up when we simply say the data are available.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Reusing data
+
+::: {.lines}
+Access means finding, trusting and reading the data
+:::
+
+::: {.lines .fragment}
+1,792 articles promised data on request
+
+254 authors responded to the request
+
+122 authors sent the data
+:::
+
+::: {.notes}
+Policies treat availability as the goal.
+
+Once data are deposited, they count as open.
+
+But reusers still have to find the data, decide whether to trust them and work out how to read them.
+
+* * *
+
+Ixchel Faniel and Elizabeth Yakel interviewed reusers in archaeology, quantitative social science and zoology.
+
+Reusers drew on many sources at once.
+
+They read the original publications, repository records, documentation and codebooks.
+
+They talked to the people who produced the data, and sometimes they went back to the physical specimens or artifacts.
+
+Above all, they judged data by how complete the documentation was.
+
+**▶ CLICK**
+
+The weakest form of availability is the promise to share on request.
+
+One team found nearly eighteen hundred articles whose authors said they would share their data on request, and then actually asked.
+
+Fewer than one in seven authors responded, and 122 sent the data.
+
+That's under seven percent.
+
+* * *
+
+Each of these depends on curation, from describing data so that people can find them to documenting how they were made so that people can trust them.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Maintaining repositories
+
+| Principle | A repository shows that it |
+|----------------------|---------------------------------------------------|
+| Transparency | describes its services and holdings openly |
+| Responsibility | protects the integrity of its holdings |
+| User focus | meets the norms of the communities it serves |
+| Sustainability | can keep operating over the long term |
+| Technology | runs secure and reliable infrastructure |
+
+::: {.prompt .fragment}
+Who pays after the grant ends?
+:::
+
+::: {.notes}
+A deposit is a promise about the future.
+
+Somebody has to keep the files readable, the links working and the servers running for years after the project ends.
+
+The proposed Tri-Agency deposit requirement would have researchers retain their data, code and documentation for ten years.
+
+* * *
+
+The TRUST principles describe what a repository should be able to demonstrate before anyone hands it that responsibility.
+
+Sustainability matters most here.
+
+A repository has to show that it can keep operating and preserving its holdings over the long term.
+
+CoreTrustSeal certifies repositories against requirements along these lines.
+
+**▶ CLICK**
+
+Grants last a few years.
+
+Storage, staff and format migrations cost money every year.
+
+So who pays for years three through ten?
+
+Often nobody planned for it, and the cost lands on a library or a repository that was never part of the original budget.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Release and upkeep
+
+::: {.lines}
+Open science asks for release
+
+Curation asks who looks after the data, for whom, and for how long
+:::
+
+::: {.notes}
+Context, access terms, reuse and maintenance all show the same pattern.
+
+Open science asks for release.
+
+Curation asks who looks after the data, for whom and for how long.
+
+* * *
+
+Those questions have no single answer, and the people answering them day to day barely appear in open science policy.
+
+**⏭ NEXT SLIDE**
+:::

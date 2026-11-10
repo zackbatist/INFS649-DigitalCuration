@@ -3,7 +3,7 @@ title: "Issues on Open Science"
 subtitle: "INFS 649 Digital Curation"
 author: "Zack Batist"
 institute: "[zackbatist.info/INFS649-DigitalCuration/2026](https://zackbatist.info/INFS649-DigitalCuration/2026/)"
-date: "November 17, 2026"
+date: "November 10, 2026"
 date-format: "MMMM D, YYYY"
 lang: en-CA
 format:
@@ -22,14 +22,16 @@ format:
     embed-resources: true
 ---
 
-{{< include sections/01-opening.qmd >}}
+{{< include _sections/01-opening.qmd >}}
 
-{{< include sections/02-what-open-science-is.qmd >}}
+{{< include _sections/02-movement.qmd >}}
 
-{{< include sections/03-what-curation-adds.qmd >}}
+{{< include _sections/03-curation.qmd >}}
 
-{{< include sections/04-methodological-pluralism.qmd >}}
+{{< include _sections/04-complications.qmd >}}
 
-{{< include sections/05-information-workers.qmd >}}
+{{< include _sections/05-pluralism.qmd >}}
 
-{{< include sections/06-close.qmd >}}
+{{< include _sections/06-ai.qmd >}}
+
+{{< include _sections/07-close.qmd >}}

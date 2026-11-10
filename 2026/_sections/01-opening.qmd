@@ -1,0 +1,55 @@
+## About me
+
+- Postdoc in Epidemiology at McGill
+  - Covid-19 Immunity Task Force Databank
+  - How research data sharing gets done in practice
+- PhD at the University of Toronto's Faculty of Information
+  - How archaeologists work with data together
+- Open source communities and community-maintained research infrastructure
+
+::: {.notes}
+I'm a postdoc in epidemiology here at McGill, where I work on the Covid-19 Immunity Task Force Databank.
+
+The Databank brings together data from the studies the Task Force funded during the pandemic and makes them available to other researchers.
+
+My own research there looks at how that sharing actually gets done, including the agreements, the coordination and the administrative work that let data move from one team to another.
+
+* * *
+
+Before that, I did my PhD at the Faculty of Information at the University of Toronto.
+
+I studied how archaeologists work with data together, especially in large projects where many people record and interpret the same material.
+
+* * *
+
+I've also been involved in open source communities for a long time, and I help maintain a few community projects for archaeologists.
+
+So I come to open science as someone who studies it, and also as someone who does a lot of its less visible work.
+
+**⏭ NEXT SLIDE**
+:::
+
+## What does "open" mean in your work?
+
+::: {.notes}
+Before I say anything about open science, I'd like to hear what you already associate with openness.
+
+Call out a word or two.
+
+It can be something you've used, something you've been asked to do, or something that came up in another course.
+
+I'll write a few of these down, and we'll come back to them at the end.
+
+*⏸ Collect five to eight words*
+
+* * *
+
+> **Running the warm-up.** Allow about two minutes.
+>
+> 1. Take five to eight words from the room and write them on the board, or on paper if there's no board.
+> 2. Expect words like free, access, sharing, transparent, public and Creative Commons. Don't comment on them yet.
+> 3. If nobody speaks, ask what they'd expect to find behind a link labelled "open data".
+> 4. Keep the list. The closing slide comes back to it.
+
+**⏭ NEXT SLIDE** once the activity wraps up
+:::

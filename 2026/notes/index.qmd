@@ -1,0 +1,28 @@
+---
+title: "Issues on Open Science"
+subtitle: "Speaker notes · INFS 649 Digital Curation · November 10, 2026"
+author: "Zack Batist"
+lang: en-CA
+toc: true
+toc-title: Slides
+toc-depth: 2
+css: notes.css
+filters:
+  - notes-only.lua
+---
+
+[Open the slides](../){.notes-link}
+
+{{< include ../_sections/01-opening.qmd >}}
+
+{{< include ../_sections/02-movement.qmd >}}
+
+{{< include ../_sections/03-curation.qmd >}}
+
+{{< include ../_sections/04-complications.qmd >}}
+
+{{< include ../_sections/05-pluralism.qmd >}}
+
+{{< include ../_sections/06-ai.qmd >}}
+
+{{< include ../_sections/07-close.qmd >}}

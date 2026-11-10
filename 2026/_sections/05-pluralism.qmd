@@ -1,0 +1,112 @@
+## [4]{.num} Methodological pluralism {.divider}
+
+::: {.notes}
+So far I've talked about data as if all research produced the same kind.
+
+It doesn't, and that creates problems for a single model of open science.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Open science practices and confirmatory research
+
+- Registering a hypothesis before collecting data
+- Repeating a study to check its results
+- Sharing data apart from the people who made them
+
+::: {.prompt .fragment}
+Standardized policy can entrench some kinds of research, and the inequities that come with them
+:::
+
+::: {.notes}
+The standard open science practices grew out of one kind of research, the confirmatory experiment, and especially out of the replication debates in psychology and biomedicine.
+
+Registering a study in advance means fixing the hypothesis and the analysis plan before collecting any data.
+
+Replication means that someone else repeats the study to see whether the results hold.
+
+Data sharing assumes that data can be detached from the people who made them and still make sense.
+
+* * *
+
+These practices suit some research well and other research badly.
+
+Think of an ethnographer, an archaeologist excavating a site that the excavation itself destroys, or a field biologist recording a season that will never recur.
+
+None of them can fix a hypothesis in advance in any meaningful way, and none of their studies can be repeated.
+
+**▶ CLICK**
+
+Sabina Leonelli argues that standardized, top-down open science policy ignores this diversity.
+
+Policies designed around one way of doing research can entrench that way of doing it, along with the inequities that come with it, and push other kinds of research to the margins.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Three kinds of reproducibility
+
+::: {.boxes .tight .even}
+::: {.box}
+[Methods]{.boxlabel}
+
+Same procedures on the same data
+:::
+::: {.box .fragment}
+[Results]{.boxlabel}
+
+A new study confirms the findings
+:::
+::: {.box .fragment}
+[Inferential]{.boxlabel}
+
+Similar conclusions from a reanalysis
+:::
+:::
+
+::: {.prompt .fragment}
+Which kind fits the research you know best?
+:::
+
+::: {.notes}
+Even research that aims to be reproducible means different things by the word.
+
+Steven Goodman, Daniele Fanelli and John Ioannidis distinguish three kinds.
+
+* * *
+
+Methods reproducibility means repeating the same procedures on the same data and getting the same result.
+
+**▶ CLICK**
+
+Results reproducibility means running a new study and getting results that corroborate the original.
+
+**▶ CLICK**
+
+Inferential reproducibility means drawing conclusions of similar strength from a replication or a reanalysis, and that comes down to expert judgement.
+
+* * *
+
+Open data and open code serve the first kind most directly.
+
+They do much less for the other two, which depend on new studies and on judgement.
+
+**▶ CLICK**
+
+Which of these makes sense for the kind of research you know best?
+
+And is there one that doesn't apply at all?
+
+*⏸ Give thirty seconds, then take two or three answers*
+
+* * *
+
+> **Running the question.** Allow about two minutes.
+>
+> 1. Once the question appears, give the room thirty seconds to think or to talk with a neighbour.
+> 2. Ask two or three people to name a field or a kind of research they know, and say which kind of reproducibility fits it.
+> 3. Expect lab sciences and quantitative social science to pick methods or results reproducibility. Expect qualitative, historical and archival work to say that none of the three fits well. That answer is Leonelli's point, so say so.
+> 4. If nobody answers, offer an oral history archive. Nobody can rerun an interview, and a second interviewer would hear a different story. Ask which kind of reproducibility could apply.
+
+**⏭ NEXT SLIDE** once the activity wraps up
+:::

@@ -1,0 +1,97 @@
+## Open science needs curation
+
+::: {.lines}
+Open science asks for release
+
+Curation asks who looks after the data, for whom, and for how long
+
+Researchers now do information work they were rarely trained or paid for
+:::
+
+::: {.notes}
+Open science has good motivations, and Canada is putting serious policy behind it.
+
+But most of the conversation about open science is about releasing things.
+
+* * *
+
+Curation asks what happens next.
+
+Someone has to keep data meaningful and available, for particular people, over a long stretch of time.
+
+Right now a lot of that work falls to researchers who were never trained for it and are rarely paid for it, supported by curators and repositories whose own funding is uncertain.
+
+* * *
+
+Look back at the words you gave me at the start.
+
+I suspect most of them were about access, and very few were about upkeep.
+
+Upkeep is the part of open science your field knows best, and it's where people with your training are most needed.
+
+**⏭ NEXT SLIDE**
+:::
+
+## Discussion
+
+::: {.cards}
+1. Who should pay for curation after the grant ends?
+2. What should researchers learn before they deposit data?
+3. Should open data be open to AI developers?
+:::
+
+::: {.notes}
+> **Running the discussion.** Leave this slide up through questions. Take questions from the room first. If things go quiet, read one card aloud and let someone answer, or ask the room to pick a card. The notes below give background for each.
+>
+> 1. Grants end, and the proposed Tri-Agency requirement asks for ten years of retention. The options include research budgets, institutional libraries, national infrastructure like the Alliance and Borealis, and disciplinary repositories. Each one shifts the work onto different people, and each one can disappear when its own funding changes.
+>
+> 2. Researchers now write data management plans, choose licences and pick repositories, often with no training. Libraries and data centres hold most of the relevant expertise. It's worth asking what a first-year graduate student actually needs to know, and who is in a position to teach it.
+>
+> 3. Open licences permit broad reuse, and many researchers are uneasy about their work training commercial models. Restricting access would cut against open science mandates, and leaving it open feeds crawlers that already strain repositories. Preference signals depend on AI developers respecting them.
+
+**⏭ NEXT SLIDE** to the reading list once questions end
+:::
+
+## Reading list
+
+::: {.refs .twocol}
+Bertram, M. G., J. Sundin, D. G. Roche, A. Sánchez-Tójar, E. S. J. Thoré, and T. Brodin. 2023. "Open Science." *Current Biology* 33 (15): R792–97. <https://doi.org/10.1016/j.cub.2023.05.036>
+
+Carroll, S. R., I. Garba, O. L. Figueroa-Rodríguez, et al. 2020. "The CARE Principles for Indigenous Data Governance." *Data Science Journal* 19 (1): 43. <https://doi.org/10.5334/dsj-2020-043>
+
+COAR. 2025. "Open Repositories Are Being Profoundly Impacted by AI Bots and Other Crawlers: Results of a COAR Survey." [coar-repositories.org](https://coar-repositories.org/news-updates/open-repositories-are-being-profoundly-impacted-by-ai-bots-and-other-crawlers-results-of-a-coar-survey/)
+
+Dallas, C. 2016. "Digital Curation beyond the 'Wild Frontier': A Pragmatic Approach." *Archival Science* 16 (4): 421–57. <https://doi.org/10.1007/s10502-015-9252-6>
+
+Edwards, P. N., M. S. Mayernik, A. L. Batcheller, G. C. Bowker, and C. L. Borgman. 2011. "Science Friction: Data, Metadata, and Collaboration." *Social Studies of Science* 41 (5): 667–90. <https://doi.org/10.1177/0306312711413314>
+
+Faniel, I. M., and E. Yakel. 2017. "Practices Do Not Make Perfect: Disciplinary Data Sharing and Reuse Practices and Their Implications for Repository Data Curation." In *Curating Research Data, Volume One*, edited by L. R. Johnston, 103–26. Chicago: Association of College and Research Libraries.
+
+Fecher, B., and S. Friesike. 2014. "Open Science: One Term, Five Schools of Thought." In *Opening Science*, edited by S. Bartling and S. Friesike, 17–47. Springer. <https://doi.org/10.1007/978-3-319-00026-8_2>
+
+Gabelica, M., R. Bojčić, and L. Puljak. 2022. "Many Researchers Were Not Compliant with Their Published Data Sharing Statement: A Mixed-Methods Study." *Journal of Clinical Epidemiology* 150: 33–41.
+
+Goodman, S. N., D. Fanelli, and J. P. A. Ioannidis. 2016. "What Does Research Reproducibility Mean?" *Science Translational Medicine* 8 (341): 341ps12. <https://doi.org/10.1126/scitranslmed.aaf5027>
+
+Leonelli, S. 2022. "Open Science and Epistemic Diversity: Friends or Foes?" *Philosophy of Science* 89 (5): 991–1001.
+
+Leonelli, S. 2023. *Philosophy of Open Science*. Cambridge University Press.
+
+Lin, D., J. Crabtree, I. Dillo, et al. 2020. "The TRUST Principles for Digital Repositories." *Scientific Data* 7: 144. <https://doi.org/10.1038/s41597-020-0486-7>
+
+Pasquetto, I. V., C. L. Borgman, and M. F. Wofford. 2019. "Uses and Reuses of Scientific Data: The Data Creators' Advantage." *Harvard Data Science Review* 1 (2). <https://doi.org/10.1162/99608f92.fc14bf2d>
+
+Thomer, A. K., D. Akmon, J. J. York, et al. 2022. "The Craft and Coordination of Data Curation: Complicating Workflow Views of Data Science." *Proceedings of the ACM on Human-Computer Interaction* 6 (CSCW2). <https://doi.org/10.1145/3555139>
+
+UNESCO. 2021. *UNESCO Recommendation on Open Science*. <https://doi.org/10.54677/MNMH8546>
+
+Wilkinson, M. D., M. Dumontier, I. J. Aalbersberg, et al. 2016. "The FAIR Guiding Principles for Scientific Data Management and Stewardship." *Scientific Data* 3: 160018. <https://doi.org/10.1038/sdata.2016.18>
+:::
+
+::: {.notes}
+These are the readings behind the talk.
+
+The slides and notes are online at the address on the title slide.
+
+**⏭ NEXT SLIDE**
+:::

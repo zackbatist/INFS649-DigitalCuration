@@ -124,22 +124,6 @@ html body .reveal #title-slide::after {
   background: url(qr.svg) no-repeat left center / 170px 170px;
 }
 
-/* Section marker: very small, bottom right */
-section.s1::after, section.s2::after, section.s3::after, section.s4::after, section.s5::after, section.s6::after {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  font-family: var(--sans);
-  font-size: 0.36em;
-  color: var(--muted);
-}
-section.s1::after { content: "1 · Opening"; }
-section.s2::after { content: "2 · What open science is"; }
-section.s3::after { content: "3 · What curation adds"; }
-section.s4::after { content: "4 · Methodological pluralism"; }
-section.s5::after { content: "5 · Researchers as information workers"; }
-section.s6::after { content: "6 · Close"; }
-
 /* Section divider slides */
 html body .reveal .divider h2 {
   font-size: 2.2em;
@@ -286,21 +270,39 @@ html body .reveal .eco {
   column-gap: 56px;
   margin: 0.2em 0 0.9em 0;
 }
-html body .reveal .eco-col { display: grid; gap: 0.5em; align-content: stretch; }
+html body .reveal .eco-col { display: grid; gap: 0.3em; grid-auto-rows: 1fr; align-content: stretch; }
 html body .reveal .eco .node {
   position: relative;
   display: flex;
   align-items: center;
   gap: 0.8em;
-  background: var(--chip);
+  background: var(--accent);
+  color: #fff;
   border-radius: 8px;
-  padding: 0.55em 0.9em;
-  font-size: 0.62em;
-  line-height: 1.25;
+  padding: 0.3em 0.9em;
+  font-size: 0.56em;
+  line-height: 1.2;
 }
 html body .reveal .eco .node b { display: block; font-family: var(--serif); font-size: 1.2em; font-weight: 600; margin-bottom: 0.15em; }
-html body .reveal .eco .node span { display: block; color: var(--muted); }
+html body .reveal .eco .node span { display: block; color: #f1e3df; }
 html body .reveal .eco .logo { width: 2.7em; height: 2.7em; flex: none; }
+html body .reveal .eco .node img.logo { filter: invert(1); }
+html body .reveal .eco .node img.logo.tile { filter: grayscale(1); background: #fff; border-radius: 6px; padding: 0.2em; box-sizing: border-box; object-fit: contain; }
+html body .reveal .eco .node .logo.txt { font-size: 0.54em; width: 5em; height: 5em; }
+html body .reveal .eco img,
+html body .reveal .eco-bar img { margin: 0; border: 0; box-shadow: none; background: none; }
+html body .reveal .eco .logos { display: grid; grid-template-columns: repeat(2, 1.3em); gap: 0.1em; align-content: center; flex: none; }
+html body .reveal .eco .logos img { width: 1.3em; height: 1.3em; filter: invert(1); }
+html body .reveal .eco .logos.tiles { grid-template-columns: repeat(3, 2.4em); gap: 0.15em; }
+html body .reveal .eco .logos.tiles img { width: 2.4em; height: 1.6em; padding: 0.25em 0.3em; box-sizing: border-box; object-fit: contain; background: #fff; border-radius: 4px; filter: grayscale(1); }
+html body .reveal .eco .node > img.logo { margin: 0 1.15em; }
+html body .reveal .eco .node > .logos { width: 5em; justify-content: center; }
+html body .reveal .eco .logos.tiles.c2 img:last-child:nth-child(odd) { grid-column: 1 / -1; justify-self: center; }
+html body .reveal .eco .logos.c2 { grid-template-columns: repeat(2, 2.4em); }
+html body .reveal .eco .logos.pair { grid-template-columns: repeat(2, 2em); }
+html body .reveal .eco .logos.pair img { width: 2em; height: 2em; }
+html body .reveal .eco .logos.row3 { grid-template-columns: repeat(3, 1.4em); }
+html body .reveal .eco .logos.row3 img { width: 1.4em; height: 1.4em; }
 html body .reveal .eco .logo.txt {
   display: flex;
   align-items: center;
@@ -329,22 +331,27 @@ html body .reveal .eco .hub {
   justify-content: center;
   text-align: center;
   gap: 0.3em;
-  background: var(--accent);
-  color: #fff;
+  background: #e4eedd;
+  border: 2px solid #8fb38a;
+  color: var(--ink);
   border-radius: 8px;
   padding: 1em;
-  font-size: 0.62em;
+  font-size: 0.56em;
 }
-html body .reveal .eco .hub .logo { width: 3.4em; height: 3.4em; filter: invert(1); }
+html body .reveal .eco .hub .logo { width: 3.4em; height: 3.4em; }
+html body .reveal .eco .hub .hub-logos { display: flex; align-items: center; justify-content: center; gap: 0.7em; }
 html body .reveal .eco .hub b { font-family: var(--serif); font-size: 1.5em; font-weight: 600; }
-html body .reveal .eco .hub span { color: #f1e3df; }
+html body .reveal .eco .hub span { color: var(--muted); }
 html body .reveal .eco-bar {
   display: flex;
   align-items: center;
   gap: 0.9em;
   font-size: 0.62em;
   line-height: 1.3;
+  isolation: isolate;
+  background: var(--bg);
 }
+html body .reveal .eco-bar img.logo { flex: none; width: auto; max-width: 9em; height: 2.2em; margin-left: -0.5em; clip-path: inset(0 0 0 0.5em); object-fit: contain; filter: grayscale(1); mix-blend-mode: multiply; }
 html body .reveal .eco-bar .logo.txt {
   flex: none;
   padding: 0.5em 0.8em;
@@ -353,3 +360,43 @@ html body .reveal .eco-bar .logo.txt {
   border-radius: 6px;
   font-weight: 700;
 }
+/* Big number */
+html body .reveal .stat p { font-family: var(--serif); font-size: 2.6em; font-weight: 600; color: var(--accent); line-height: 1; margin: 0.4em 0 0.2em 0; }
+
+/* Image credit */
+html body .reveal .credit { display: block; font-size: 0.4em; color: var(--muted); margin-top: 0.3em; }
+
+/* Bar chart */
+html body .reveal .bars { display: grid; gap: 0.55em; margin: 0.6em 0 0 0; font-size: 0.7em; }
+html body .reveal .bars .bar { display: grid; grid-template-columns: 14em 1fr 7em; align-items: center; gap: 0.9em; }
+html body .reveal .bars .lab { color: var(--muted); }
+html body .reveal .bars .track { height: 1.3em; background: var(--chip); border-radius: 4px; display: block; }
+html body .reveal .bars .fill { display: block; height: 100%; background: var(--muted); border-radius: 4px; }
+html body .reveal .bars .bar.hl .fill { background: var(--accent); }
+html body .reveal .bars .bar.hl .lab, html body .reveal .bars .bar.hl .n { color: var(--accent); font-weight: 600; }
+
+/* Avoid short dangling last lines */
+html body .reveal h2, html body .reveal .prompt, html body .reveal .prompt p { text-wrap: balance; }
+html body .reveal .lines p, html body .reveal .muted, html body .reveal td, html body .reveal blockquote p { text-wrap: balance; }
+html body .reveal .box p, html body .reveal li, html body .reveal .cards li { text-wrap: pretty; }
+html body .reveal .boxes .box .boxlabel { white-space: nowrap; }
+html body .reveal .boxes.even .box { font-size: 0.9em; }
+html body .reveal .eco span, html body .reveal .eco-bar span { text-wrap: balance; }
+html body .reveal .refs p { text-wrap: pretty; }
+html body .reveal .refs a { white-space: nowrap; }
+
+/* Stacked boxes */
+html body .reveal .boxes.stack { flex-direction: column; gap: 0.7em; }
+html body .reveal .boxes.stack .box { font-size: 0.85em; padding: 0.7em 1.2em; }
+html body .reveal .boxes.stack .box .boxlabel { display: inline; margin-right: 0.6em; }
+html body .reveal .boxes .about { display: block; color: var(--muted); font-size: 0.85em; margin-top: 0.3em; }
+
+/* Acrostic */
+html body .reveal .acro h3 { margin: 0 0 0.1em 0; }
+html body .reveal .acro p { margin: 0 0 0.25em 0; font-size: 0.95em; }
+html body .reveal .acro .about { display: block; color: var(--muted); font-size: 0.75em; margin-bottom: 0.6em; }
+html body .reveal .acro .ltr { font-weight: 700; color: var(--accent); }
+
+html body .reveal .defs { margin-top: 1.4em; font-size: 0.62em; color: var(--muted); }
+html body .reveal .defs p { margin: 0 0 0.3em 0; }
+html body .reveal .defs strong { color: var(--ink); }
