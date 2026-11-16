@@ -57,8 +57,6 @@ Benedikt Fecher and Sascha Friesike, for example, sort open science into five sc
 
 * * *
 
-* * *
-
 Open access makes publications free to read.
 
 Open data makes the data behind those publications available, and open source does the same for the software and code that process and analyse the data.

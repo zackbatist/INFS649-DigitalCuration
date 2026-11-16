@@ -195,7 +195,7 @@ Access means finding, trusting and reading the data
 
 254 authors responded to the request
 
-122 authors sent the data
+123 authors sent the data
 :::
 
 ::: {.notes}
@@ -223,7 +223,7 @@ The weakest form of availability is the promise to share on request.
 
 One team found nearly eighteen hundred articles whose authors said they would share their data on request, and then actually asked.
 
-Fewer than one in seven authors responded, and 122 sent the data.
+Fewer than one in seven authors responded, and 123 sent the data.
 
 That's under seven percent.
 
@@ -271,7 +271,7 @@ Grants last a few years.
 
 Storage, staff and format migrations cost money every year.
 
-So who pays for years three through ten?
+So who pays for the ten years after the grant ends?
 
 Often nobody planned for it, and the cost lands on a library or a repository that was never part of the original budget.
 

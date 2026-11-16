@@ -21,6 +21,8 @@ Someone has to keep data meaningful and available, for particular people, over a
 
 Right now a lot of that work falls to researchers who were never trained for it and are rarely paid for it, supported by curators and repositories whose own funding is uncertain.
 
+And what good upkeep looks like depends on the kind of research the data came from.
+
 * * *
 
 Look back at the words you gave me at the start.

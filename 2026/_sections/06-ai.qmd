@@ -1,7 +1,7 @@
 ## [5]{.num} Tensions with AI {.divider}
 
 ::: {.notes}
-AI puts new pressure on the access terms and the maintenance problems we just looked at, and it changes who might do curation work.
+AI puts new pressure on the access terms and the maintenance problems from earlier, and it changes who might do curation work.
 
 **⏭ NEXT SLIDE**
 :::
